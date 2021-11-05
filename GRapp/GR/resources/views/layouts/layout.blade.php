@@ -10,7 +10,7 @@
                     <ul class="header_logo">
                         <li>
                             <a href="home">
-                                <!-- <img src="image/top.png"style="width :200;"> -->
+                                <!-- <img src="image/top.png"style="width :200;">がぞう -->
                                 <div class="ja">アプリ名</div>
                             </a>
                         </li>
