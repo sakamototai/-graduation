@@ -1,6 +1,6 @@
 body{
     margin:0;
-    width:1700px;
+    width: 100%;
     margin-right: auto;
     margin-left : auto;
     background-color: rgb(196, 255, 214);
@@ -19,7 +19,7 @@ div.navi_inner{
 
 div.navi_inner ul li{
     list-style: none;
-    width: 200px;
+    width: 175px;
     text-align: center;
     background-color:darkolivegreen;
     float: left;
