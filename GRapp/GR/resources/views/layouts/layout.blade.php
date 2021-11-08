@@ -44,19 +44,20 @@
                         </a>
                         <ul>
                             <nav id="obiti">
-                            <li><a href="online_reserve">
-                                    <div>オンライン相談予約</div>
-                                </a>
-                            </li>
-                            <li><a href="videochat">
-                                    <div>ビデオチャット</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="chat">
-                                    <div>チャット</div>
-                                </a>
-                            </li>
+                                <li><a href="online_reserve">
+                                        <div>オンライン相談予約</div>
+                                    </a>
+                                </li>
+                                <li><a href="videochat">
+                                        <div>ビデオチャット</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="chat">
+                                        <div>チャット</div>
+                                    </a>
+                                </li>
+                            </nav>
                         </ul>
                     </li>
                 </ul>
