@@ -35,9 +35,12 @@ li.navi_other ul{
     width: 200px;
     display: none;
     position: absolute;
+    padding: 0px;
+    margin: 0px; 
 }
 #obiti li{
-  width: 70%;
+  width: 90%;
+  /* 70% */
   display: list-item;
   list-style-type: none;
   margin-top: 1px;
