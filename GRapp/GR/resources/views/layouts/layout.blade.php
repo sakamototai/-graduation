@@ -77,8 +77,10 @@
                 </ul>
             </div>
         </nav>
-    </header><br>
+    </header><br><br>
     @yield('content')
+    @component('components.footer')
+    @endcomponent
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/bridal.js"></script>
 </body>
