@@ -82,7 +82,7 @@
     @component('components.footer')
     @endcomponent
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/bridal.js"></script>
+    <script src="js/openclose.js"></script>
 </body>
 
 </html>

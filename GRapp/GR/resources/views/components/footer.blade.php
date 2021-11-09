@@ -64,9 +64,9 @@
 
     <div id="copyright">
         <ul>
-            <li class="copy">© 2016 Academy Sports + Outdoors. All Rights Reserved.</li>
+            <li class="copy">コピーライトとかかくところ</li>
 
-            <li class="copy">Privacy Policy | Terms + Conditions | Sitemap</li>
+            <li class="copy">|いろいろかいてください</li>
 
             <li class="copy">California Proposition 65 | California Transparency in Supply Chains Act (SB 657)</li>
 
