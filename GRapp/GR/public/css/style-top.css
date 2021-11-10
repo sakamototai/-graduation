@@ -130,8 +130,8 @@ header #logo img {
 	animation-timing-function: linear;		/*アニメーションのパターン。速度を一定に変化させる指定。*/
 	color: #fff;	/*文字色*/
 	text-align: center;	/*文字をセンタリング*/
-	width: 250px;		/*メニューの幅*/
-	line-height: 250px;	/*メニューの高さ*/
+	width: 220px;		/*メニューの幅*/
+	line-height: 210px;	/*メニューの高さ*/
 }
 
 /*１つ目のspanタグ（英語）への設定。通常時とマウスオン時で表示を切り替える設定です。*/
