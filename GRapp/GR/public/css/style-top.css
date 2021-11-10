@@ -195,7 +195,7 @@ header #logo img {
 #menubar li:nth-of-type(6) {
 	animation-delay: 4.6s;	/*出現するタイミング（秒後）*/
 	left: 64%;	/*右からの配置場所指定*/
-	top: 35%;	/*上からの配置場所指定*/
+	top: 28%;	/*上からの配置場所指定*/
 }
 
 #menubar li:nth-of-type(6) a {
