@@ -44,12 +44,12 @@
 
     <nav id="menubar">
         <ul>
-            <li><a href="about.html"><span>schedule</span><span>スケジュール</span></a></li>
-            <li><a href="menu.html"><span>budget</span><span>予算管理</span></a></li>
-            <li><a href="access.html"><span>column</span><span>コラム特集</span></a></li>
-            <li><a href="recruit.html"><span>bridalfair</span><span>ブライダルフェア</span></a></li>
-            <li><a href="recruit.html"><span>chat</span><span>チャット</span></a></li>
-            <li><a href="recruit.html"><span>consultation</span><span>オンライン相談予約</span></a></li>
+            <li><a href="schedule"><span>schedule</span><span>スケジュール</span></a></li>
+            <li><a href="budget"><span>budget</span><span>予算管理</span></a></li>
+            <li><a href="column"><span>column</span><span>コラム特集</span></a></li>
+            <li><a href="bridal_fair"><span>bridalfair</span><span>ブライダルフェア</span></a></li>
+            <li><a href="chat"><span>chat</span><span>チャット</span></a></li>
+            <li><a href="online_reserve"><span>consultation</span><span>オンライン相談予約</span></a></li>
         </ul>
     </nav>
 
