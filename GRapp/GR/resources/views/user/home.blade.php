@@ -23,7 +23,7 @@
 
 <body>
     <header>
-        <h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="Macaroon Shop"></a></h1>
+        <h1 id="logo"><a href="home"><img src="images/logo.png" alt="Macaroon Shop"></a></h1>
         <dl id="new">
             <dt>2021/10/26</dt>
             <dd>tp_cute2配布開始。</dd>
@@ -44,10 +44,12 @@
 
     <nav id="menubar">
         <ul>
-            <li><a href="about.html"><span>About</span><span>ショップについて</span></a></li>
-            <li><a href="menu.html"><span>Macarron</span><span>マカロンメニュー</span></a></li>
-            <li><a href="access.html"><span>Access</span><span>アクセス</span></a></li>
-            <li><a href="recruit.html"><span>Recruit</span><span>スタッフ募集</span></a></li>
+            <li><a href="about.html"><span>schedule</span><span>スケジュール</span></a></li>
+            <li><a href="menu.html"><span>budget</span><span>予算管理</span></a></li>
+            <li><a href="access.html"><span>column</span><span>コラム特集</span></a></li>
+            <li><a href="recruit.html"><span>bridalfair</span><span>ブライダルフェア</span></a></li>
+            <li><a href="recruit.html"><span>chat</span><span>チャット</span></a></li>
+            <li><a href="recruit.html"><span>consultation</span><span>オンライン相談予約</span></a></li>
         </ul>
     </nav>
 
@@ -67,4 +69,3 @@
 </body>
 
 </html>
-ction
