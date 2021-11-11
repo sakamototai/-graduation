@@ -14,7 +14,7 @@ class accountController extends Controller
         return view('user.schedule');
     }
     public function budget(){
-        return view('user.column');
+        return view('user.budget');
     }
     public function chat(){
         return view('user.chat');

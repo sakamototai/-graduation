@@ -47,11 +47,12 @@
         <!--小さな端末用（900px以下端末）ブロック-->
         <nav id="menubar-s">
             <ul>
-                <li><a href="index.html"><span>Home</span><span>ホーム</span></a></li>
-                <li><a href="about.html"><span>About</span><span>ショップについて</span></a></li>
-                <li><a href="menu.html"><span>Macarron</span><span>マカロンメニュー</span></a></li>
-                <li><a href="access.html"><span>Access</span><span>アクセス</span></a></li>
-                <li><a href="recruit.html"><span>Recruit</span><span>スタッフ募集</span></a></li>
+                <li><a href="schedule"><span>schedule</span><span>スケジュール</span></a></li>
+                <li><a href="budget"><span>budget</span><span>予算管理</span></a></li>
+                <li><a href="column"><span>column</span><span>コラム特集</span></a></li>
+                <li><a href="bridal_fair"><span>bridalfair</span><span>ブライダルフェア</span></a></li>
+                <li><a href="chat"><span>chat</span><span>チャット</span></a></li>
+                <li><a href="online_reserve"><span>consultation</span><span>オンライン相談予約</span></a></li>
             </ul>
             <ul class="icon">
                 <li><a href="#"><img src="images/icon_facebook.png" alt="Facebook"></a></li>
