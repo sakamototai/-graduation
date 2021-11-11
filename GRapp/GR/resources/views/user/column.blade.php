@@ -27,6 +27,7 @@
             <!--PC用（901px以上端末）メニュー-->
             <nav id="menubar">
                 <ul>
+                    <li><a href="home"><span>Home</span><span>ホーム</span></a></li>
                     <li><a href="schedule"><span>schedule</span><span>スケジュール</span></a></li>
                     <li><a href="budget"><span>budget</span><span>予算管理</span></a></li>
                     <li><a href="column"><span>column</span><span>コラム特集</span></a></li>
@@ -47,6 +48,7 @@
         <!--小さな端末用（900px以下端末）ブロック-->
         <nav id="menubar-s">
             <ul>
+                <li><a href="home"><span>Home</span><span>ホーム</span></a></li>
                 <li><a href="schedule"><span>schedule</span><span>スケジュール</span></a></li>
                 <li><a href="budget"><span>budget</span><span>予算管理</span></a></li>
                 <li><a href="column"><span>column</span><span>コラム特集</span></a></li>
@@ -70,10 +72,13 @@
                 <h2>マカロンメニュー</h2>
 
                 <div class="list">
-                    <figure><img src="images/sample1.jpg" alt=""></figure>
-                    <h4>マカロンタイトル</h4>
-                    <p class="price">150円</p>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
+                    <a href="chat">
+                        <figure><img src="images/sample1.jpg" alt=""></figure>
+                        <h4>マカロンタイトル</h4>
+                        <p class="price">150円</p>
+                        <p>ここに説明を入れます。サンプルテキスト。</p>
+                    </a>
+                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
                 </div>
 
                 <div class="list">
@@ -81,6 +86,7 @@
                     <h4>マカロンタイトル</h4>
                     <p class="price">150円</p>
                     <p>ここに説明を入れます。サンプルテキスト。</p>
+                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
                 </div>
 
                 <div class="list">
@@ -88,24 +94,53 @@
                     <h4>マカロンタイトル</h4>
                     <p class="price">150円</p>
                     <p>ここに説明を入れます。サンプルテキスト。</p>
+                    <a href="">gaga</a><a href="">tag</a><a href="">tag</a>
                 </div>
 
                 <div class="list">
                     <figure><img src="images/sample2.jpg" alt=""></figure>
                     <h4>マカロンタイトル</h4>
+                    <p class="price">150円</p>
                     <p>ここに説明を入れます。サンプルテキスト。</p>
+                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
                 </div>
 
                 <div class="list">
                     <figure><img src="images/sample1.jpg" alt=""></figure>
                     <h4>マカロンタイトル</h4>
                     <p>ここに説明を入れます。サンプルテキスト。</p>
+                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
                 </div>
 
                 <div class="list">
                     <figure><img src="images/sample2.jpg" alt=""></figure>
                     <h4>マカロンタイトル</h4>
                     <p>ここに説明を入れます。サンプルテキスト。</p>
+                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
+                </div>
+                <div class="list">
+                    <figure><img src="images/sample2.jpg" alt=""></figure>
+                    <h4>マカロンタイトル</h4>
+                    <p>ここに説明を入れます。サンプルテキスト。</p>
+                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
+                </div>
+                <div class="list">
+                    <figure><img src="images/sample2.jpg" alt=""></figure>
+                    <h4>マカロンタイトル</h4>
+                    <p>ここに説明を入れます。サンプルテキスト。</p>
+                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
+                </div>
+                <div class="list">
+                    <figure><img src="images/sample2.jpg" alt=""></figure>
+                    <h4>マカロンタイトル</h4>
+                    <p>ここに説明を入れます。サンプルテキスト。</p>
+                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
+                </div>
+                <div class="list">
+                    <figure><img src="images/sample2.jpg" alt=""></figure>
+                    <h4>マカロンタイトル</h4>
+                    <p>ここに説明を入れます。サンプルテキスト。</p>
+                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
                 </div>
 
             </section>

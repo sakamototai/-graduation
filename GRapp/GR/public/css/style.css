@@ -187,7 +187,7 @@ ul.icon img:hover {
 #main .list {
 	overflow: hidden;position: relative;
 	float: left;	/*左に回り込み*/
-	width: 30%;		/*幅*/
+	width: 20%;		/*幅*/
 	margin-left: 2%;
 	margin-bottom: 30px;
 	font-size: 10px;	/*文字サイズ*/
@@ -195,7 +195,7 @@ ul.icon img:hover {
 }
 /*画像*/
 #main .list figure {
-	border-radius: 50%;	/*円形にする。角丸四角形にしたいなら、ここを20pxなどにしてみる。角が尖った正方形にしたいなら、この１行を削除する。*/
+	border-radius: 25px;	/*円形にするのは50%。角丸四角形にしたいなら、ここを20pxなどにしてみる。角が尖った正方形にしたいなら、この１行を削除する。*/
 	overflow: hidden;
 	margin-bottom: 10px;
 }
