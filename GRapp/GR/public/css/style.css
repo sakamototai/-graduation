@@ -202,8 +202,8 @@ ul.icon img:hover {
 /*h4タグ*/
 #main .list h4 {
 	font-size: 13px;	/*文字サイズ*/
-	height: 2em;		/*高さ１行分。冒頭のbody内のline-heightで「2」と指定しているので、この行の2emというのは１文字の高さの事になります。２行表示にしたいならこの行を「4em」にして下さい。*/
-	overflow: hidden;	/*上のheightを超えた文字は非表示にする指定*/
+	height: 4em;		/*高さ１行分。冒頭のbody内のline-heightで「2」と指定しているので、この行の2emというのは１文字の高さの事になります。２行表示にしたいならこの行を「4em」にして下さい。*/
+	/* overflow: hidden;	上のheightを超えた文字は非表示にする指定 */
 }
 /*段落タグ*/
 #main .list p {
@@ -212,7 +212,7 @@ ul.icon img:hover {
 	overflow: hidden;	/*これもh4と同じです。*/
 }
 /*左上に配置している価格*/
-#main .list p.price {
+#main .list p.popular {
 	text-align: center;
 	position: absolute;
 	left: 0px;	/*listブロックに対しての左からの配置場所指定*/

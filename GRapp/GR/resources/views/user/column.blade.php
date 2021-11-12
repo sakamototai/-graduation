@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ケーキショップ向け 無料ホームページテンプレート tp_cute2</title>
+    <title>MIA コラム特集</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="ここにサイト説明を入れます">
     <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
@@ -22,7 +22,7 @@
     <div id="container">
 
         <header>
-            <h1 id="logo"><a href="index.html"><img src="images/logo2.png" alt="Macaroon Shop"></a></h1>
+            <h1 id="logo"><a href="home"><img src="images/logo2.png" alt="Macaroon Shop"></a></h1>
             <h2>COLUMN<span>コラム</span></h2>
             <!--PC用（901px以上端末）メニュー-->
             <nav id="menubar">
@@ -69,78 +69,101 @@
 
             <section class="ofh">
 
-                <h2>マカロンメニュー</h2>
+                <h2>カテゴリー別注目記事</h2>
+
+                <div class="list">
+                    <a href="chat">
+                        <figure><img src="images/column/column.jpg" alt=""></figure>
+                        <h4>オンライン婚活パーティって何？メリットや成功の秘訣</h4>
+                        <p class="popular">人気</p>
+                    </a></br>
+                    <div><a href="">婚活</a><a href="">マッチングアプリ　</a><a href="">すげー </a></div>
+                    <p>ここに説明を入れます。サンプルテキスト。</p>
+                </div>
+                <div class="list">
+                    <a href="chat">
+                        <figure><img src="images/sample1.jpg" alt=""></figure>
+                        <h4>オンライン婚活パーティって何？メリットや成功の秘訣</h4>
+                        <p class="popular">人気</p>
+                    </a></br>
+                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
+                    <p>ここに説明を入れます。サンプルテキスト。</p>
+                </div>
+
+                <div class="list">
+                    <a href="chat">
+                        <figure><img src="images/sample1.jpg" alt=""></figure>
+                        <h4>オンライン婚活パーティって何？メリットや成功の秘訣</h4>
+                        <p class="popular">人気</p>
+                    </a></br>
+                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
+                    <p>ここに説明を入れます。サンプルテキスト。</p>
+                </div>
+
+                <div class="list">
+                    <a href="chat">
+                        <figure><img src="images/sample1.jpg" alt=""></figure>
+                        <h4>オンライン婚活パーティって何？メリットや成功の秘訣</h4>
+                        <p class="popular">人気</p>
+                    </a></br>
+                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
+                    <p>ここに説明を入れます。サンプルテキスト。</p>
+                </div>
+
+                <div class="list">
+                    <a href="chat">
+                        <figure><img src="images/sample1.jpg" alt=""></figure>
+                        <h4>オンライン婚活パーティって何？メリットや成功の秘訣</h4>
+                        <p class="popular">人気</p>
+                    </a></br>
+                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
+                    <p>ここに説明を入れます。サンプルテキスト。</p>
+                </div>
 
                 <div class="list">
                     <a href="chat">
                         <figure><img src="images/sample1.jpg" alt=""></figure>
                         <h4>マカロンタイトル</h4>
-                        <p class="price">150円</p>
-                        <p>ここに説明を入れます。サンプルテキスト。</p>
-                    </a>
+                        <p class="popular">人気</p>
+                    </a></br>
                     <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                </div>
-
-                <div class="list">
-                    <figure><img src="images/sample2.jpg" alt=""></figure>
-                    <h4>マカロンタイトル</h4>
-                    <p class="price">150円</p>
                     <p>ここに説明を入れます。サンプルテキスト。</p>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                </div>
-
-                <div class="list">
-                    <figure><img src="images/sample1.jpg" alt=""></figure>
-                    <h4>マカロンタイトル</h4>
-                    <p class="price">150円</p>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                    <a href="">gaga</a><a href="">tag</a><a href="">tag</a>
-                </div>
-
-                <div class="list">
-                    <figure><img src="images/sample2.jpg" alt=""></figure>
-                    <h4>マカロンタイトル</h4>
-                    <p class="price">150円</p>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                </div>
-
-                <div class="list">
-                    <figure><img src="images/sample1.jpg" alt=""></figure>
-                    <h4>マカロンタイトル</h4>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                </div>
-
-                <div class="list">
-                    <figure><img src="images/sample2.jpg" alt=""></figure>
-                    <h4>マカロンタイトル</h4>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
                 </div>
                 <div class="list">
-                    <figure><img src="images/sample2.jpg" alt=""></figure>
-                    <h4>マカロンタイトル</h4>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
+                    <a href="chat">
+                        <figure><img src="images/sample1.jpg" alt=""></figure>
+                        <h4>マカロンタイトル</h4>
+                        <p class="popular">人気</p>
+                    </a></br>
                     <a href="">tag</a><a href="">tag</a><a href="">tag</a>
+                    <p>ここに説明を入れます。サンプルテキスト。</p>
                 </div>
                 <div class="list">
-                    <figure><img src="images/sample2.jpg" alt=""></figure>
-                    <h4>マカロンタイトル</h4>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
+                    <a href="chat">
+                        <figure><img src="images/sample1.jpg" alt=""></figure>
+                        <h4>マカロンタイトル</h4>
+                        <p class="popular">人気</p>
+                    </a></br>
                     <a href="">tag</a><a href="">tag</a><a href="">tag</a>
+                    <p>ここに説明を入れます。サンプルテキスト。</p>
                 </div>
                 <div class="list">
-                    <figure><img src="images/sample2.jpg" alt=""></figure>
-                    <h4>マカロンタイトル</h4>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
+                    <a href="chat">
+                        <figure><img src="images/sample1.jpg" alt=""></figure>
+                        <h4>マカロンタイトル</h4>
+                        <p class="popular">人気</p>
+                    </a></br>
                     <a href="">tag</a><a href="">tag</a><a href="">tag</a>
+                    <p>ここに説明を入れます。サンプルテキスト。</p>
                 </div>
                 <div class="list">
-                    <figure><img src="images/sample2.jpg" alt=""></figure>
-                    <h4>マカロンタイトル</h4>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
+                    <a href="chat">
+                        <figure><img src="images/sample1.jpg" alt=""></figure>
+                        <h4>マカロンタイトル</h4>
+                        <p class="popular">人気</p>
+                    </a></br>
                     <a href="">tag</a><a href="">tag</a><a href="">tag</a>
+                    <p>ここに説明を入れます。サンプルテキスト。</p>
                 </div>
 
             </section>
@@ -181,7 +204,7 @@
         <!--/#main-->
 
         <footer>
-            <small>Copyright&copy; <a href="index.html">Macaroon Shop</a> All Rights Reserved.</small>
+            <small>Copyright&copy; <a href="home">MIA column</a> All Rights Reserved.</small>
             <span class="pr"><a href="https://template-party.com/" target="_blank">《Web
                     Design:Template-Party》</a></span>
         </footer>
