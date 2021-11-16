@@ -518,29 +518,46 @@ body.is-fixed-pagetop .nav-fix-pos-pagetop a {
 }
 
 .quan{
-	width: 30px;
+	width: 35px;
 	border:none;
-	background-color: #ffeef0;
+	background-color: #ffbfc7;
 }
 .much{
 	border:none;
-	background-color: #ffeef0;
+	background-color: #ffbfc7;
 }
 .price{
 	width: 200px;
+	background-color: #ebfafc;
 }
 .memo{
 	border:none;
-	background-color: #ffeef0;
+	background-color: #ffbfc7;
 }
 .row{
 	width: 50px;
 }
 .other{
-	width: 140px;
+	width: 160px;
 	border:none;
-	background-color: #ffeef0;
+	background-color: #ffbfc7;
 }
 .item{
-	width: 211px;
+	width: 215px;
+}
+.td{
+	background-color: #ffbfc7;
+}
+.end{
+	width: 436px;
+	background-color: #ebfafc;
+}
+.kazu{
+	width: 35px;
+}
+.tr{
+	background-attachment: #ffbcf0;
+}
+.table{
+	font-family: 'Courier New', Courier, monospace;
 }
