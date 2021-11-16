@@ -14,6 +14,7 @@ class accountController extends Controller
         return view('user.schedule');
     }
     public function column1($id ='0'){
+
         return view('column.columncontents');
     }
     public function budget(){
