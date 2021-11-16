@@ -15,7 +15,7 @@ const Peer = window.Peer;
 
   meta.innerText = `
     UA: ${navigator.userAgent}
-    SDK: ${sdkSrc ? sdkSrc.src : 'ae67abcf-c322-46ea-8703-33c1f22b714f'}
+    SDK: ${sdkSrc ? sdkSrc.src : 'unknown'}
   `.trim();
 
   const getRoomModeByHash = () => (location.hash === '#sfu' ? 'sfu' : 'mesh');
