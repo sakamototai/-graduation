@@ -13,6 +13,9 @@ class accountController extends Controller
     public function schedule(){
         return view('user.schedule');
     }
+    public function column1(){
+        return view('column.column1');
+    }
     public function budget(){
         return view('user.budget');
     }

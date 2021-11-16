@@ -72,7 +72,7 @@
                 <h2>カテゴリー別注目記事</h2>
 
                 <div class="list">
-                    <a href="chat">
+                    <a href="column1">
                         <figure><img src="images/column/column.jpg" alt=""></figure>
                         <h4>オンライン婚活パーティって何？メリットや成功の秘訣</h4>
                         <p class="popular">人気</p>
