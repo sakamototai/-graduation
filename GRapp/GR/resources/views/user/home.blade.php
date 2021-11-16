@@ -23,7 +23,9 @@
 
 <body>
     <header>
-        <h1 id="logo"><a href="home"><img src="images/logo.png" alt="Macaroon Shop"></a></h1>
+        <h1 id="logo">
+            <a href="home"><img src="images/logo.png" alt="Macaroon Shop"></a>
+        </h1>
         <dl id="new">
             <dt>2021/10/26</dt>
             <dd>tp_cute2配布開始。</dd>
