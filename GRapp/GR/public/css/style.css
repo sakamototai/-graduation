@@ -520,16 +520,18 @@ body.is-fixed-pagetop .nav-fix-pos-pagetop a {
 .quan{
 	width: 30px;
 	border:none;
-	background-color: #fca4b2;
+	background-color: #ffeef0;
+}
+.much{
+	border:none;
+	background-color: #ffeef0;
 }
 .price{
 	width: 200px;
 }
-.much{
-	border:none;
-}
 .memo{
 	border:none;
+	background-color: #ffeef0;
 }
 .row{
 	width: 50px;
@@ -537,4 +539,8 @@ body.is-fixed-pagetop .nav-fix-pos-pagetop a {
 .other{
 	width: 140px;
 	border:none;
+	background-color: #ffeef0;
+}
+.item{
+	width: 211px;
 }

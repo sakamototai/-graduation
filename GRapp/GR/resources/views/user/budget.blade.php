@@ -72,7 +72,7 @@
             <input type="text" style="height: 40px" id="cost">円<br><br>
             <table border="1" class="table">
             <tr>
-                <th width="200px">項目</th>
+                <th class="item">項目</th>
                 <th width="30px">数量</th>
                 <th>料金</th>
                 <th>金額</th>
@@ -144,7 +144,7 @@
         </table>
         <table border="1" class="table">
             <tr>
-                <th colspan="2" width="200px"></th>
+                <th colspan="2" class="item"></th>
                 <th></th>
                 <th></th>
                 <th></th>
@@ -168,7 +168,7 @@
         </table>
         <table border="1" class="table">
             <tr>
-                <th colspan="2" width="200px"></th>
+                <th colspan="2" width="210px"></th>
                 <th></th>
                 <th></th>
                 <th></th>
@@ -192,7 +192,7 @@
         </table>
         <table border="1" class="table">
             <tr>
-                <th colspan="2" width="200px"></th>
+                <th colspan="2" class="item"></th>
                 <th></th>
                 <th></th>
                 <th></th>
@@ -230,7 +230,7 @@
         </table>
         <table border="1" class="table">
             <tr>
-                <th colspan="2" width="200px"></th>
+                <th colspan="2" class="item"></th>
                 <th></th>
                 <th></th>
                 <th></th>
@@ -254,7 +254,7 @@
         </table>
         <table border="1" class="table">
             <tr>
-                <th colspan="2" width="200px"></th>
+                <th colspan="2" class="item"></th>
                 <th></th>
                 <th></th>
                 <th></th>
@@ -278,7 +278,7 @@
         </table>
         <table border="1" class="table">
                 <tr>
-                    <th colspan="2" width="200px"></th>
+                    <th colspan="2" class="item"></th>
                     <th></th>
                     <th></th>
                     <th></th>
@@ -330,7 +330,7 @@
             </table>
             <table border="1" class="table">
                 <tr>
-                    <th colspan="2" width="200px"></th>
+                    <th colspan="2" class="item"></th>
                     <th></th>
                     <th></th>
                     <th></th>
