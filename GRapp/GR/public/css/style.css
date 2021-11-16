@@ -166,20 +166,7 @@ ul.icon img:hover {
 	font-size: 24px;		/*文字サイズ*/
 }
 /*mainコンテンツの段落タグ設定*/
-#main p {
-	padding: 0px 20px 20px;	/*上、左右、下への余白*/
-}
-/*他。微調整。*/
-#main p + p {
-	margin-top: -5px;
-}
-#main h2 + p,
-#main h3 + p {
-	margin-top: -10px;
-}
-#main section + section {
-	margin-top: 50px;
-}
+
 
 /*listブロック（menu.html マカロンメニューページで使っています）
 ---------------------------------------------------------------------------*/
@@ -528,4 +515,26 @@ body.is-fixed-pagetop .nav-fix-pos-pagetop a {
 	width: 70px;		/*幅を少し小さくリサイズする*/
 }
 
+}
+
+.quan{
+	width: 30px;
+	border:none;
+	background-color: #fca4b2;
+}
+.price{
+	width: 200px;
+}
+.much{
+	border:none;
+}
+.memo{
+	border:none;
+}
+.row{
+	width: 50px;
+}
+.other{
+	width: 140px;
+	border:none;
 }

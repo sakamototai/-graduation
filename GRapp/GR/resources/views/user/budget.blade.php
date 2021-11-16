@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/openclose.js"></script>
     <script src="js/fixmenu_pagetop.js"></script>
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
 </head>
 
 <body class="bg2">
@@ -62,21 +66,23 @@
         </nav>
 
         <div id="main">
-            <p><strong>全体の費用を入力してください</strong></p>
-            <input type="text" style="height: 20px" id="cost">円<br><br>
-            <table border="1"　width=100% class="table">
+
+        <section>
+            全体の費用を入力してください<br>
+            <input type="text" style="height: 40px" id="cost">円<br><br>
+            <table border="1" class="table">
             <tr>
-                <th width="40%">項目</th>
-                <th>数量</th>
+                <th width="200px">項目</th>
+                <th width="30px">数量</th>
                 <th>料金</th>
-                <th class="price">金額</th>
+                <th>金額</th>
                 <th>MEMO</th>
             </tr>
             <tr>
                 <td>挙式料</td>
-                <td><input type="text" class="quan"></td>
-                <td><input type="text" class="much"></td>
-                <td class="price" class="price"></td>
+                <td ><input type="text" class="quan" value=""></td>
+                <td><input type="text" class="much" value=""></td>
+                <td class="price" name="price" value=""></td>
                 <td><input type="text" class="memo"></td>
             </tr>
             <tr>
@@ -138,7 +144,7 @@
         </table>
         <table border="1" class="table">
             <tr>
-                <th colspan="2" width="40%"></th>
+                <th colspan="2" width="200px"></th>
                 <th></th>
                 <th></th>
                 <th></th>
@@ -162,7 +168,7 @@
         </table>
         <table border="1" class="table">
             <tr>
-                <th colspan="2" width="40%"></th>
+                <th colspan="2" width="200px"></th>
                 <th></th>
                 <th></th>
                 <th></th>
@@ -186,7 +192,7 @@
         </table>
         <table border="1" class="table">
             <tr>
-                <th colspan="2" width="40%"></th>
+                <th colspan="2" width="200px"></th>
                 <th></th>
                 <th></th>
                 <th></th>
@@ -224,7 +230,7 @@
         </table>
         <table border="1" class="table">
             <tr>
-                <th colspan="2" width="40%"></th>
+                <th colspan="2" width="200px"></th>
                 <th></th>
                 <th></th>
                 <th></th>
@@ -245,33 +251,34 @@
                 <td class="price" name="price" value=""></td>
                 <td><input type="text" class="memo"></td>
             </tr>
-            <table border="1" class="table">
+        </table>
+        <table border="1" class="table">
+            <tr>
+                <th colspan="2" width="200px"></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>        
+                <td rowspan="2" class="row">写真</td>
+                <td>スタジオ</td>
+                <td><input type="text" class="quan" value=""></td>
+                <td><input type="text" class="much" value=""></td>
+                <td class="price" name="price" value=""></td>
+                <td><input type="text" class="memo"></td>
+            </tr>       
+            <tr>    
+                <td>スナップ</td>
+                <td><input type="text" class="quan" value=""></td>
+                <td><input type="text" class="much" value=""></td>
+                <td class="price" name="price" value=""></td>
+                <td><input type="text" class="memo"></td>
+            </tr>
+        </table>
+        <table border="1" class="table">
                 <tr>
-                    <th colspan="2" width="40%"></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>        
-                    <td rowspan="2" class="row">写真</td>
-                    <td>スタジオ</td>
-                    <td><input type="text" class="quan" value=""></td>
-                    <td><input type="text" class="much" value=""></td>
-                    <td class="price" name="price" value=""></td>
-                    <td><input type="text" class="memo"></td>
-                </tr>       
-                <tr>    
-                    <td>スナップ</td>
-                    <td><input type="text" class="quan" value=""></td>
-                    <td><input type="text" class="much" value=""></td>
-                    <td class="price" name="price" value=""></td>
-                    <td><input type="text" class="memo"></td>
-                </tr>
-            </table>
-            <table border="1" class="table">
-                <tr>
-                    <th colspan="2" width="40%"></th>
+                    <th colspan="2" width="200px"></th>
                     <th></th>
                     <th></th>
                     <th></th>
@@ -323,7 +330,7 @@
             </table>
             <table border="1" class="table">
                 <tr>
-                    <th colspan="2" width="40%"></th>
+                    <th colspan="2" width="200px"></th>
                     <th></th>
                     <th></th>
                     <th></th>
@@ -354,7 +361,7 @@
             </table>
             <table border="1">
                 <tr>
-                    <th width="40%" bgcolor="black"></th>
+                    <th width="200px" bgcolor="black"></th>
                     <th bgcolor="black"></th>
                     <th bgcolor="black"></th>
                 </tr>
@@ -365,16 +372,19 @@
                 </tr>
                 <tr>
                     <td align="right">予算との差分</td>
-                    <td id="diff" width="522px" align="right"></td>
+                    <td id="diff" width="440px" align="right"></td>
                     <td><input type="text" class="memo"></td>
                 </tr>
             </table>
+            </section>
+
         </div>
         <!--/#main-->
 
         <footer>
             <small>Copyright&copy; <a href="index.html">Macaroon Shop</a> All Rights Reserved.</small>
-            <span class="pr"><a href="https://template-party.com/" target="_blank">《WebDesign:Template-Party</a></span>
+            <span class="pr"><a href="https://template-party.com/" target="_blank">《Web
+                    Design:Template-Party》</a></span>
         </footer>
 
     </div>
