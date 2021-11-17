@@ -49,7 +49,7 @@ a {text-decoration: none;color: #666;transition: 0.5s;}
 }
 /*土台画像*/
 .slide0 {
-	background: url(../images/0.jpg) no-repeat center center / cover;	/*土台画像（空）の読み込み*/
+	background: url(../images/MIA1.png) no-repeat center center / cover;	/*土台画像（空）の読み込み*/
 	position: relative;
 }
 /*１枚目*/
