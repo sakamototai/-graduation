@@ -34,7 +34,7 @@
 
         <header>
             <h1 id="logo"><a href="index.html"><img src="images/logo2.png" alt="Macaroon Shop"></a></h1>
-            <h2>MACARRON<span>マカロンメニュー</span></h2>
+            <h2>SCHEDULE<span>スケジュール管理</span></h2>
             <!--PC用（901px以上端末）メニュー-->
             <nav id="menubar">
                 <ul>

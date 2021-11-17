@@ -25,7 +25,7 @@
 
         <header>
             <h1 id="logo"><a href="index.html"><img src="images/logo2.png" alt="Macaroon Shop"></a></h1>
-            <h2>SCHEDULE<span>スケジュール</span></h2>
+            <h2>BURIDAL_FAIR<span>ブライダルフェア</span></h2>
             <!--PC用（901px以上端末）メニュー-->
             <nav id="menubar">
                 <ul>

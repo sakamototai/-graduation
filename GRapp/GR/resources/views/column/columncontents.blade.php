@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="ここにサイト説明を入れます">
     <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <script src="js/openclose.js"></script>
     <script src="js/fixmenu_pagetop.js"></script>
     <!--[if lt IE 9]>
@@ -23,33 +23,35 @@
 
         <header>
             <h1 id="logo">
-                <a href="index.html"><img src="images/logo2.png" alt="Macaroon Shop"></a>
+                <a href="index.html"><img src="../images/logo2.png" alt="Macaroon Shop"></a>
             </h1>
-            <h2>MACARRON<span>マカロンメニュー</span></h2>
+            <h2>Column<span>Columnのタイトル</span></h2>
             <!--PC用（901px以上端末）メニュー-->
             <nav id="menubar">
                 <ul>
-                    <li><a href="index.html"><span>Home</span><span>ホーム</span></a></li>
-                    <li><a href="about.html"><span>About</span><span>ショップについて</span></a></li>
-                    <li><a href="menu.html"><span>Macarron</span><span>マカロンメニュー</span></a></li>
-                    <li><a href="access.html"><span>Access</span><span>アクセス</span></a></li>
-                    <li><a href="recruit.html"><span>Recruit</span><span>スタッフ募集</span></a></li>
+                    <li><a href="../home"><span>Home</span><span>ホーム</span></a></li>
+                    <li><a href="../schedule"><span>schedule</span><span>スケジュール</span></a></li>
+                    <li><a href="../budget"><span>budget</span><span>予算管理</span></a></li>
+                    <li><a href="../column"><span>column</span><span>コラム特集</span></a></li>
+                    <li><a href="../bridal_fair"><span>bridalfair</span><span>ブライダルフェア</span></a></li>
+                    <li><a href="../chat"><span>chat</span><span>チャット</span></a></li>
+                    <li><a href="../online_reserve"><span>consultation</span><span>オンライン相談予約</span></a></li>
                 </ul>
                 <ul class="icon">
                     <li>
-                        <a href="#"><img src="images/icon_facebook.png" alt="Facebook"></a>
+                        <a href="#"><img src="../images/icon_facebook.png" alt="Facebook"></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/icon_twitter.png" alt="Twitter"></a>
+                        <a href="#"><img src="../images/icon_twitter.png" alt="Twitter"></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/icon_instagram.png" alt="Instagram"></a>
+                        <a href="#"><img src="../images/icon_instagram.png" alt="Instagram"></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/icon_youtube.png" alt="YouTube"></a>
+                        <a href="#"><img src="../images/icon_youtube.png" alt="YouTube"></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/icon_line.png" alt="LINE"></a>
+                        <a href="#"><img src="../images/icon_line.png" alt="LINE"></a>
                     </li>
                 </ul>
             </nav>
@@ -58,27 +60,29 @@
         <!--小さな端末用（900px以下端末）ブロック-->
         <nav id="menubar-s">
             <ul>
-                <li><a href="index.html"><span>Home</span><span>ホーム</span></a></li>
-                <li><a href="about.html"><span>About</span><span>ショップについて</span></a></li>
-                <li><a href="menu.html"><span>Macarron</span><span>マカロンメニュー</span></a></li>
-                <li><a href="access.html"><span>Access</span><span>アクセス</span></a></li>
-                <li><a href="recruit.html"><span>Recruit</span><span>スタッフ募集</span></a></li>
+                <li><a href="../home"><span>Home</span><span>ホーム</span></a></li>
+                <li><a href="../schedule"><span>schedule</span><span>スケジュール</span></a></li>
+                <li><a href="../budget"><span>budget</span><span>予算管理</span></a></li>
+                <li><a href="../column"><span>column</span><span>コラム特集</span></a></li>
+                <li><a href="../bridal_fair"><span>bridalfair</span><span>ブライダルフェア</span></a></li>
+                <li><a href="../chat"><span>chat</span><span>チャット</span></a></li>
+                <li><a href="../online_reserve"><span>consultation</span><span>オンライン相談予約</span></a></li>
             </ul>
             <ul class="icon">
                 <li>
-                    <a href="#"><img src="images/icon_facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="../images/icon_facebook.png" alt="Facebook"></a>
                 </li>
                 <li>
-                    <a href="#"><img src="images/icon_twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="../images/icon_twitter.png" alt="Twitter"></a>
                 </li>
                 <li>
-                    <a href="#"><img src="images/icon_instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="../images/icon_instagram.png" alt="Instagram"></a>
                 </li>
                 <li>
-                    <a href="#"><img src="images/icon_youtube.png" alt="YouTube"></a>
+                    <a href="#"><img src="../images/icon_youtube.png" alt="YouTube"></a>
                 </li>
                 <li>
-                    <a href="#"><img src="images/icon_line.png" alt="LINE"></a>
+                    <a href="#"><img src="../images/icon_line.png" alt="LINE"></a>
                 </li>
             </ul>
         </nav>
@@ -159,7 +163,7 @@
                 </p>
 
                 <h3>左上にある白いロゴ画像について</h3>
-                <p>文字なしの土台画像がbaseフォルダに入っていますのでそれにサイト名をのせてimagesフォルダに上書きして下さい。画像の大きさは自由に変更してもらっても構いませんがある程度大きくしておいた方が高解像度の端末で鮮明に見えます。</p>
+                <p>文字なしの土台画像がbaseフォルダに入っていますのでそれにサイト名をのせて../imagesフォルダに上書きして下さい。画像の大きさは自由に変更してもらっても構いませんがある程度大きくしておいた方が高解像度の端末で鮮明に見えます。</p>
 
                 <h3>ロゴ下の色のついた大見出し</h3>
                 <p>こちらは、文字は直接htmlに記入されていますので必要に応じて入れ替えて下さい。<br> あまり文字数が長いと飛び出るのでコンパクトにして下さい。
@@ -173,7 +177,7 @@
                     <span class="look">.slide0,.slide2,.slide3 {display:none;}</span><br> 部分です。
                     <br> この場合、slide1画像のみが表示されます。（上のcssは、slide0,slide2,slide3を非表示にする設定）
                 </p>
-                <p><strong class="color1">画像を入れ替えたい場合</strong><br> 「0.jpg」「1.jpg」「2.jpg」「3.jpg」の3枚のjpg画像を用意してimagesフォルダに上書きして下さい。
+                <p><strong class="color1">画像を入れ替えたい場合</strong><br> 「0.jpg」「1.jpg」「2.jpg」「3.jpg」の3枚のjpg画像を用意して../imagesフォルダに上書きして下さい。
                 </p>
                 <p>拡張子が「jpeg」や「JPG」と少し違った場合にうまく表示できない可能性があるので「jpg」で統一して下さい。画像を「jpg」にできない場合はhtml側の拡張子指定を変更しても構いません。<br> 画像の容量はできるだけ軽くして下さい。重いと初動の動きがガタつきます。
                     <br> 画像サイズについては、cssの背景画像（cover）なので適当で構いません。ただ、縦端末、横端末で画像がトリミングされますので、切れてもおかしくない画像を用意して下さい。
@@ -211,9 +215,9 @@
                 </ol>
 
                 <h3>ページ最上部にある装飾用写真の説明</h3>
-                <p>このページのように、ページによって別画像にしたい場合、まずは背景用画像を準備し（当ページならbg2.jpg）imagesフォルダに入れます。<br> 次に、cssフォルダのstyle.cssの冒頭の方にある、
+                <p>このページのように、ページによって別画像にしたい場合、まずは背景用画像を準備し（当ページならbg2.jpg）../imagesフォルダに入れます。<br> 次に、cssフォルダのstyle.cssの冒頭の方にある、
                     <br>
-                    <span class="look">body.bg2 {background-image: url(../images/bg2.jpg);}</span><br> の行のように画像を上書きするスタイルを追加して下さい。
+                    <span class="look">body.bg2 {background-image: url(../../images/bg2.jpg);}</span><br> の行のように画像を上書きするスタイルを追加して下さい。
                     <br> 追加したら、あとはhtml側のbodyタグにこれを指定すればOKです。
                     <br>
                     <span class="look">&lt;body <span class="color1">class=&quot;bg2&quot;</span>&gt;</span><br> 補足：cssファイルのドット(.)と、htmlファイルのclassは同じ意味です。単にcssファイルとhtmlにより表記方法が異なるだけです。
@@ -241,7 +245,7 @@
 
     <!--ページの上部に戻るボタン-->
     <p class="nav-fix-pos-pagetop">
-        <a href="#"><img src="images/icon_pagetop.png" alt="↑"></a>
+        <a href="#"><img src="../images/icon_pagetop.png" alt="↑"></a>
     </p>
 
     <!--メニュー開閉ボタン-->
