@@ -54,17 +54,17 @@ a {text-decoration: none;color: #666;transition: 0.5s;}
 }
 /*１枚目*/
 .slide1 {
-	background: url(../images/1.jpg) no-repeat center bottom/cover;	/*１枚目画像（子供たち）の読み込み*/
+	background: url(../images/5.jpg) no-repeat center bottom/cover;	/*１枚目画像（子供たち）の読み込み*/
 	animation-name: slide1;		/*keyframes.cssで使う@keyframesの指定*/
 }
 /*２枚目*/
 .slide2 {
-	background: url(../images/2.jpg) no-repeat center center/cover;	/*２枚目画像（サッカー）の読み込み*/
+	background: url(../images/6.jpg) no-repeat center center/cover;	/*２枚目画像（サッカー）の読み込み*/
 	animation-name: slide2;		/*keyframes.cssで使う@keyframesの指定*/
 }
 /*３枚目*/
 .slide3 {
-	background: url(../images/3.jpg) no-repeat center top/cover;	/*３枚目画像（スイミング）の読み込み*/
+	background: url(../images/7.jpg) no-repeat center top/cover;	/*３枚目画像（スイミング）の読み込み*/
 	animation-name: slide3;		/*keyframes.cssで使う@keyframesの指定*/
 }
 
