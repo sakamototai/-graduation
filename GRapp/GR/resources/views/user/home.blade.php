@@ -24,7 +24,7 @@
 <body>
     <header>
         <h1 id="logo">
-            <a href="home"><img src="images/logo.png" alt="Macaroon Shop"></a>
+            <a href="home"><img src="images/MIA2.png" alt="Macaroon Shop"></a>
         </h1>
         <dl id="new">
             <dt>2021/10/26</dt>
