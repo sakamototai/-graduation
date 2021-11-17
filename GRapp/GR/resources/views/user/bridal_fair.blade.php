@@ -74,11 +74,11 @@
                 <h2>式場検索</h2>
 
                 <h3>式場の名前を入力し、検索ボタンを押してください</h3>
-                <input type="text" id="searchword" placeholder="式場名・エリアを入力する">
+                <input type="text" id="searchword" placeholder="式場名・エリアを入力する" class="nice-textbox">
                 <input type="button" value="検索" id="search" onclick="Search()" >
                 <button id="modalOpen" >エリアで検索</button>
 
-                <p id="searchconditions"></p>
+                <h2 id="searchconditions"></h2>
                 <ul id="ceremonylist" class="disc">　
 
                 </ul>

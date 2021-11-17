@@ -1,20 +1,20 @@
 var ceremonylist = [
-    ["THE STYLE","岡山","岡山市・周辺"],
-    ["ラヴィール岡山","岡山","岡山市・周辺"],
-    ["アーヴェリール迎賽館　岡山","岡山","岡山市・周辺"],
-    ["Recent Culture Hotel(リーセントカルチャーホテル)","岡山","岡山市・周辺"],
-    ["OKAYAMA MONOLITH(岡山モノリス)","岡山","岡山市・周辺"],
-    ["SEPHIROTH(セフィロト)","岡山","岡山市・周辺"],
-    ["セント・ポールズパーク プリムローズ","岡山","岡山市・周辺"],
-    ["森の邸宅 彩音","岡山","岡山市・周辺"],
-    ["ホテル メルパルクOKAYAMA","岡山","岡山市・周辺"],
-    ["セント・パトリック教会/ウェリントンマナーハウス","岡山","岡山市・周辺"],
-    ["THE MAGRITTE(ザ マグリット)","岡山","岡山市・周辺"],
-    ["クリスタルテラス Nature","岡山","岡山市・周辺"],
-    ["Wグランラセーレ岡山","岡山","岡山市・周辺"],
-    ["ホテルグランヴィア岡山","岡山","岡山市・周辺"],
-    ["Tiara-THE GARDEN HOUSE(旧アムボエル・アスク)","岡山","岡山市・周辺"],
-    ["Le Merci(ル・メルシェ)","岡山","岡山市・周辺"],
+    ["THE STYLE","岡山","岡山市・周辺","thestyle.png"],
+    ["ラヴィール岡山","岡山","岡山市・周辺","lavilleokayama.png"],
+    ["アーヴェリール迎賽館　岡山","岡山","岡山市・周辺","averillstateguesthouse.png"],
+    ["Recent Culture Hotel(リーセントカルチャーホテル)","岡山","岡山市・周辺","recentculturehotel.png"],
+    ["OKAYAMA MONOLITH(岡山モノリス)","岡山","岡山市・周辺","okayamamonolith.png"],
+    ["SEPHIROTH(セフィロト)","岡山","岡山市・周辺","sephiroth.png"],
+    ["セント・ポールズパーク プリムローズ","岡山","岡山市・周辺","sentporlsparkprimlose.png"],
+    ["森の邸宅 彩音","岡山","岡山市・周辺","morinoteitakuayane.png"],
+    ["ホテル メルパルクOKAYAMA","岡山","岡山市・周辺","hotelmielparque.png"],
+    ["セント・パトリック教会/ウェリントンマナーハウス","岡山","岡山市・周辺","sentpatrickyokaiulerintonmanahausu.png"],
+    ["THE MAGRITTE(ザ マグリット)","岡山","岡山市・周辺","themagritte.png"],
+    ["クリスタルテラス Nature","岡山","岡山市・周辺","cristaltelasnature.png"],
+    ["Wグランラセーレ岡山","岡山","岡山市・周辺","wgranraseleokayama.png"],
+    ["ホテルグランヴィア岡山","岡山","岡山市・周辺","hotelgranviaokayama.png"],
+    ["Tiara-THE GARDEN HOUSE(旧アムボエル・アスク)","岡山","岡山市・周辺","tiaragardenhouse.png"],
+    ["Le Merci(ル・メルシェ)","岡山","岡山市・周辺","lemerci.png"],
     ["Tiara-THE CLASSIC CLUB(旧キューティパイ倶楽部)"],
     ["Ray ClassicGran Sweet(レイクラシックグランスウィート)","岡山","岡山市・周辺"],
     ["ANAクラウンプラザホテル岡山","岡山","岡山市・周辺"],
@@ -100,6 +100,9 @@ function addElement(i){
     var newElement = document.createElement("li"); //li要素作成
     newContent.appendChild(newElement);//divにli要素追加
     var newLink = document.createElement("a"); // a要素作成
+    var ceremonyimg = document.createElement('img');//img要素を作る
+    ceremonyimg.setAttribute("src","img/ceremony/" + ceremonylist[i][3]);//ソース名
+    newLink.appendChild(ceremonyimg);
     var ceremonyname = document.createTextNode(ceremonylist[i][0]); //式場名を生成
     newLink.appendChild(ceremonyname); // a要素に式場名を追加
     newLink.setAttribute("href",ceremonylink[i]); // p要素にidを設定
