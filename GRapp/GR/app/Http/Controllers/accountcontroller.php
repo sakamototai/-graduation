@@ -7,6 +7,13 @@ use Illuminate\Http\Request;
 
 class accountController extends Controller
 {
+ 
+    public function login(){
+        return view('user.login');
+
+    }   
+
+
     public function home(){
         return view('user.home');
 
