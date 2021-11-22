@@ -144,6 +144,7 @@ header #logo img {
 
 /*１つ目メニューへの追加設定　スケジュール管理*/
 #menubar li:nth-of-type(1) {
+	display: flexbox;
 	animation-delay: 4s;	/*出現するタイミング（秒後）*/
 	left: 1%;	/*左からの配置場所指定*/
 	top: -1%;	/*上からの配置場所指定*/
@@ -153,6 +154,7 @@ header #logo img {
 }
 /*２つ目メニューへの追加設定　予算管理*/
 #menubar li:nth-of-type(2) {
+	display: flexbox;
 	animation-delay: 4.2s;	/*出現するタイミング（秒後）*/
 	left: 25%;	/*左からの配置場所指定*/
 	top: 15%;	/*上からの配置場所指定*/
@@ -163,6 +165,7 @@ header #logo img {
 }
 /*３つ目メニューへの追加設定　コラム*/
 #menubar li:nth-of-type(3) {
+	display: flexbox;
 	animation-delay: 4.4s;	/*出現するタイミング（秒後）*/
 	right: 27%;	/*右からの配置場所指定*/
 	top: -1%;	/*上からの配置場所指定*/
@@ -173,6 +176,7 @@ header #logo img {
 }
 /*４つ目メニューへの追加設定　ブライダルフェア*/
 #menubar li:nth-of-type(4) {
+	display: flexbox;
 	animation-delay: 4.6s;	/*出現するタイミング（秒後）*/
 	right: 1%;	/*右からの配置場所指定*/
 	top: -4%;	/*上からの配置場所指定*/
@@ -183,6 +187,7 @@ header #logo img {
 }
 /*5つ目メニューへの追加設定 チャット*/
 #menubar li:nth-of-type(5) {
+	display: flexbox;
 	animation-delay: 4.6s;	/*出現するタイミング（秒後）*/
 	left: 3%;	/*右からの配置場所指定*/
 	top: 37%;	/*上からの配置場所指定*/
@@ -193,6 +198,7 @@ header #logo img {
 }
 /*6つ目メニューへの追加設定 オンライン相談*/
 #menubar li:nth-of-type(6) {
+	display: flexbox;
 	animation-delay: 4.6s;	/*出現するタイミング（秒後）*/
 	left: 64%;	/*右からの配置場所指定*/
 	top: 28%;	/*上からの配置場所指定*/
