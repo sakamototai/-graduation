@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use Illuminate\Support\Facades\DB;
 
 use Illuminate\Http\Request;
 
@@ -14,7 +15,12 @@ class accountController extends Controller
         return view('user.schedule');
     }
     public function column1($id ='0'){
+<<<<<<< HEAD
         return view('column.columncontents');
+=======
+        $items = DB::select('select * from tbl_column');
+        return view('column.columncontents',['item'=> $items]);
+>>>>>>> 7dc6774ed9e8f4b20d67701f641a36db0e833992
     }
     public function budget(){
         return view('user.budget');
