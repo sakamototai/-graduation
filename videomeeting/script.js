@@ -12,7 +12,8 @@ const Peer = window.Peer;
   const messages = document.getElementById('js-messages');
   const meta = document.getElementById('js-meta');
   const sdkSrc = document.querySelector('script[src*=skyway]');
-
+  const mbtn = document.getElementById('mutebtn');
+  const vbtn = document.getElementById('vbtn');
   meta.innerText = `
     UA: ${navigator.userAgent}
     SDK: ${sdkSrc ? sdkSrc.src : 'unknown'}
@@ -112,6 +113,28 @@ const Peer = window.Peer;
       room.send(localText.value);
       messages.textContent += `${peer.id}: ${localText.value}\n`;
       localText.value = '';
+    }
+    mbtn.addEventListener('click',mute);
+    vbtn.addEventListener('click',video);
+  var videoTrack = localStream.getVideoTracks()[0];
+  var audioTrack = localStream.getAudioTracks()[0];
+    function mute(){
+      if(audioTrack==true){
+        audioTrack = false;
+        mbtn.textContent='ミュート解除';
+      }else{
+        audioTrack = true;
+        mbtn.textContent='ミュート';
+      }
+    }
+    function video(){
+      if(videoTrack==true){
+        videoTrack = false;
+        vbtn.textContent='カメラオン';
+      }else{
+        videoTrack = true;
+        vbtn.textContent='カメラオフ';
+      }
     }
   });
 
