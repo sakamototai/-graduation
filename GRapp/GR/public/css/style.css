@@ -561,3 +561,6 @@ body.is-fixed-pagetop .nav-fix-pos-pagetop a {
 #table{
 	font-family: 'Courier New', Courier, monospace;
 }
+table th{
+	text-align: left;
+}

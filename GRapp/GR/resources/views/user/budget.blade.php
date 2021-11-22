@@ -70,70 +70,70 @@
                 <input type="text" style="height: 40px" id="cost">円<br><br>
                 <table border="1" id="table">
                 <tr>
-                    <th class="item">項目</th>
+                    <th class="item">　　　　　　項目</th>
                     <th class="kazu">数量</th>
-                    <th>料金</th>
-                    <th>金額</th>
-                    <th>MEMO</th>
+                    <th>　　　　　料金</th>
+                    <th>　　　　　金額</th>
+                    <th>　　　　　MEMO</th>
                 </tr>
                 <tr>
-                    <td>挙式料</td>
+                    <th>挙式料</th>
                     <td class="td" ><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" value=""></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
                 <tr>
-                    <td>会場料</td>
+                    <th>会場料</th>
                     <td class="td"><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" value=""></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
                 <tr>
-                    <td>介添料</td>
+                    <th>介添料</th>
                     <td class="td"><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" value=""></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
                 <tr>
-                    <td>控え室料</td>
+                    <th>控え室料</th>
                     <td class="td"><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" value=""></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
                 <tr>
-                    <td>司会料</td>
+                    <th>司会料</th>
                     <td class="td"><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" value=""></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
                 <tr>
-                    <td>ブーケ・ブートニア</td>
+                    <th>ブーケ・ブートニア</th>
                     <td class="td"><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" value=""></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
                 <tr>
-                    <td>音楽</td>
+                    <th>音楽</th>
                     <td class="td"><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" name="price" value=""></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
                 <tr>
-                    <td>ビデオ</td>
+                    <th>ビデオ</th>
                     <td class="td"><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" name="price" value=""></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
                 <tr>
-                    <td>引き出物</td>
+                    <th>引き出物</th>
                     <td class="td"><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" name="price" value=""></td>
@@ -149,15 +149,15 @@
                     <th></th>
                 </tr>
                 <tr>     
-                    <td rowspan="2" class="row">料理</td>
-                    <td>大人</td>
+                    <th rowspan="2" class="row">料理</th>
+                    <th>大人</th>
                     <td class="td"><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" name="price" value=""></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>       
                 <tr>    
-                    <td>子供</td>
+                    <th>子供</th>
                     <td class="td"><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" name="price" value=""></td>
@@ -173,15 +173,15 @@
                     <th></th>
                 </tr>
                 <tr>        
-                    <td rowspan="2" class="row">演出</td>
-                    <td>ケーキ入刀</td>
+                    <th rowspan="2" class="row">演出</th>
+                    <th>ケーキ入刀</th>
                     <td class="td"><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" name="price" value=""></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>       
                 <tr>    
-                    <td>キャンドルサービス</td>
+                    <th>キャンドルサービス</th>
                     <td class="td"><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" name="price" value=""></td>
@@ -197,29 +197,29 @@
                     <th></th>
                 </tr>
                 <tr>        
-                    <td rowspan="4" class="row">装花</td>
-                    <td>ウェディングケーキ</td>
+                    <th rowspan="4" class="row">装花</th>
+                    <th>ウェディングケーキ</th>
                     <td class="td"><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" name="price" value=""></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>       
                 <tr>    
-                    <td>メインテーブル</td>
+                    <th>メインテーブル</th>
+                    <th class="td"><input type="text" class="quan" value=""></td>
+                    <td class="td"><input type="text" class="much" value=""></td>
+                    <td class="price" name="price" value=""></td>
+                    <td class="td"><input type="text" class="memo"></td>
+                </tr>
+                <tr>    
+                    <th>卓上</th>
                     <td class="td"><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" name="price" value=""></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
                 <tr>    
-                    <td>卓上</td>
-                    <td class="td"><input type="text" class="quan" value=""></td>
-                    <td class="td"><input type="text" class="much" value=""></td>
-                    <td class="price" name="price" value=""></td>
-                    <td class="td"><input type="text" class="memo"></td>
-                </tr>
-                <tr>    
-                    <td>ブライダルキャンドル</td>
+                    <th>ブライダルキャンドル</th>
                     <td class="td"><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" name="price" value=""></td>
@@ -235,15 +235,39 @@
                     <th></th>
                 </tr>
                 <tr>        
-                    <td rowspan="2" class="row">花束</td>
-                    <td>両親への贈呈用</td>
+                    <th rowspan="2" class="row">花束</th>
+                    <th>両親への贈呈用</th>
                     <td class="td"><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" name="price" value=""></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>       
                 <tr>    
-                    <td>新郎新婦への贈呈用</td>
+                    <th>新郎新婦への贈呈用</th>
+                    <th class="td"><input type="text" class="quan" value=""></td>
+                    <td class="td"><input type="text" class="much" value=""></td>
+                    <td class="price" name="price" value=""></td>
+                    <td class="td"><input type="text" class="memo"></td>
+                </tr>
+            </table>
+            <table border="1">
+                <tr>
+                    <th colspan="2" class="item"></th>
+                    <th class="kazu"></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>        
+                    <th rowspan="2" class="row">写真</th>
+                    <th>スタジオ</th>
+                    <td class="td"><input type="text" class="quan" value=""></td>
+                    <td class="td"><input type="text" class="much" value=""></td>
+                    <td class="price" name="price" value=""></td>
+                    <td class="td"><input type="text" class="memo"></td>
+                </tr>       
+                <tr>    
+                    <th>スナップ</th>
                     <td class="td"><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" name="price" value=""></td>
@@ -259,121 +283,97 @@
                     <th></th>
                 </tr>
                 <tr>        
-                    <td rowspan="2" class="row">写真</td>
-                    <td>スタジオ</td>
+                    <th rowspan="6" class="row">心付け</th>
+                    <th>会場係</th>
                     <td class="td"><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" name="price" value=""></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>       
                 <tr>    
-                    <td>スナップ</td>
+                    <th>美容師</th>
                     <td class="td"><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" name="price" value=""></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
+                <tr>    
+                    <th>着付係</th>
+                    <td class="td"><input type="text" class="quan" value=""></td>
+                    <td class="td"><input type="text" class="much" value=""></td>
+                    <td class="price" name="price" value=""></td>
+                    <td class="td"><input type="text" class="memo"></td>
+                </tr>
+                <tr>    
+                    <th>写真家</th>
+                    <td class="td"><input type="text" class="quan" value=""></td>
+                    <td class="td"><input type="text" class="much" value=""></td>
+                    <td class="price" name="price" value=""></td>
+                    <td class="td"><input type="text" class="memo"></td>
+                </tr>
+                <tr>    
+                    <th>受付係</th>
+                    <td class="td"><input type="text" class="quan" value=""></td>
+                    <td class="td"><input type="text" class="much" value=""></td>
+                    <td class="price" name="price" value=""></td>
+                    <td class="td"><input type="text" class="memo"></td>
+                </tr>
+                <tr>    
+                    <th>契約人</th>
+                    <td class="td"><input type="text" class="quan" value=""></td>
+                    <td class="td"><input type="text" class="much" value=""></td>
+                    <td class="price" name="price" value=""></td>
+                    <td class="td"><input type="text"class="memo"></td>
+                </tr>
             </table>
             <table border="1">
-                    <tr>
-                        <th colspan="2" class="item"></th>
-                        <th class="kazu"></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                    </tr>
-                    <tr>        
-                        <td rowspan="6" class="row">心付け</td>
-                        <td>会場係</td>
-                        <td class="td"><input type="text" class="quan" value=""></td>
-                        <td class="td"><input type="text" class="much" value=""></td>
-                        <td class="price" name="price" value=""></td>
-                        <td class="td"><input type="text" class="memo"></td>
-                    </tr>       
-                    <tr>    
-                        <td>美容師</td>
-                        <td class="td"><input type="text" class="quan" value=""></td>
-                        <td class="td"><input type="text" class="much" value=""></td>
-                        <td class="price" name="price" value=""></td>
-                        <td class="td"><input type="text" class="memo"></td>
-                    </tr>
-                    <tr>    
-                        <td>着付係</td>
-                        <td class="td"><input type="text" class="quan" value=""></td>
-                        <td class="td"><input type="text" class="much" value=""></td>
-                        <td class="price" name="price" value=""></td>
-                        <td class="td"><input type="text" class="memo"></td>
-                    </tr>
-                    <tr>    
-                        <td>写真家</td>
-                        <td class="td"><input type="text" class="quan" value=""></td>
-                        <td class="td"><input type="text" class="much" value=""></td>
-                        <td class="price" name="price" value=""></td>
-                        <td class="td"><input type="text" class="memo"></td>
-                    </tr>
-                    <tr>    
-                        <td>受付係</td>
-                        <td class="td"><input type="text" class="quan" value=""></td>
-                        <td class="td"><input type="text" class="much" value=""></td>
-                        <td class="price" name="price" value=""></td>
-                        <td class="td"><input type="text" class="memo"></td>
-                    </tr>
-                    <tr>    
-                        <td>契約人</td>
-                        <td class="td"><input type="text" class="quan" value=""></td>
-                        <td class="td"><input type="text" class="much" value=""></td>
-                        <td class="price" name="price" value=""></td>
-                        <td class="td"><input type="text"class="memo"></td>
-                    </tr>
-                </table>
-                <table border="1">
-                    <tr>
-                        <th colspan="2" class="item"></th>
-                        <th class="kazu"></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                    </tr>
-                    <tr>        
-                        <td rowspan="3" class="row">その他</td>
-                        <td class="td"><input type="text" class="other"></td>
-                        <td class="td"><input type="text" class="quan" value=""></td>
-                        <td class="td"><input type="text" class="much" value=""></td>
-                        <td class="price" name="price" value=""></td>
-                        <td class="td"><input type="text" class="memo"></td>
-                    </tr>       
-                    <tr>    
-                        <td class="td"><input type="text" class="other"></td>
-                        <td class="td"><input type="text" class="quan" value=""></td>
-                        <td class="td"><input type="text" class="much" value=""></td>
-                        <td class="price" name="price" value=""></td>
-                        <td class="td"><input type="text" class="memo"></td>
-                    </tr>
-                    <tr>    
-                        <td class="td"><input type="text" class="other"></td>
-                        <td class="td"><input type="text" class="quan" value=""></td>
-                        <td class="td"><input type="text" class="much" value=""></td>
-                        <td class="price" name="price" value=""></td>
-                        <td class="td"><input type="text"class="memo"></td>
-                    </tr>
-                </table>
-                <table border="1">
-                    <tr>
-                        <th width="215px" bgcolor="black"></th>
-                        <th bgcolor="black"></th>
-                        <th bgcolor="black"></th>
-                    </tr>
-                    <tr>
-                        <td align="right">合計</td>
-                        <td id="sum" class="end" align="right"></td>
-                        <td class="td"><input type="text" class="memo"></td>
-                    </tr>
-                    <tr>
-                        <td align="right">予算との差分</td>
-                        <td id="diff" class="end "align="right"></td>
-                        <td class="td"><input type="text" class="memo"></td>
-                    </tr>
-                </table>
+                <tr>
+                    <th colspan="2" class="item"></th>
+                    <th class="kazu"></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>        
+                    <th rowspan="3" class="row">その他</th>
+                    <td class="td"><input type="text" class="other"></td>
+                    <td class="td"><input type="text" class="quan" value=""></td>
+                    <td class="td"><input type="text" class="much" value=""></td>
+                    <td class="price" name="price" value=""></td>
+                    <td class="td"><input type="text" class="memo"></td>
+                </tr>       
+                <tr>    
+                    <th class="td"><input type="text" class="other"></th>
+                    <td class="td"><input type="text" class="quan" value=""></td>
+                    <td class="td"><input type="text" class="much" value=""></td>
+                    <td class="price" name="price" value=""></td>
+                    <td class="td"><input type="text" class="memo"></td>
+                </tr>
+                <tr>    
+                    <th class="td"><input type="text" class="other"></th>
+                    <td class="td"><input type="text" class="quan" value=""></td>
+                    <td class="td"><input type="text" class="much" value=""></td>
+                    <td class="price" name="price" value=""></td>
+                    <td class="td"><input type="text"class="memo"></td>
+                </tr>
+            </table>
+            <table border="1">
+                <tr>
+                    <th width="215px" bgcolor="black"></th>
+                    <th bgcolor="black"></th>
+                    <th bgcolor="black"></th>
+                </tr>
+                <tr>
+                    <td align="right">合計</td>
+                    <td id="sum" class="end" align="right"></td>
+                    <td class="td"><input type="text" class="memo"></td>
+                </tr>
+                <tr>
+                    <td align="right">予算との差分</td>
+                    <td id="diff" class="end "align="right"></td>
+                    <td class="td"><input type="text" class="memo"></td>
+                </tr>
+            </table>
             </section>
         </div>
         <!--/#main-->
