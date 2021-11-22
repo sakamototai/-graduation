@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ケーキショップ向け 無料ホームページテンプレート tp_cute2</title>
+    <title>{{$item[0]->title}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="ここにサイト説明を入れます">
     <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css?123">
     <script src="js/openclose.js"></script>
     <script src="js/fixmenu_pagetop.js"></script>
     <!--[if lt IE 9]>
