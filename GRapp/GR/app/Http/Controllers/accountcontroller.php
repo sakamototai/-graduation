@@ -9,14 +9,11 @@ class accountController extends Controller
 {
  
     public function login(){
-        return view('user.login');
-
+        $items = DB::select('select * from user');
+        return view('user.login',['item'=> $items]);
     }   
-
-
     public function home(){
         return view('user.home');
-
     }
     public function schedule(){
         return view('user.schedule');
