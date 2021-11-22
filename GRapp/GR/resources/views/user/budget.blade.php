@@ -68,7 +68,7 @@
             <section>
                 <div class="table">全体の費用の予算を入力してください</div>
                 <input type="text" style="height: 40px" id="cost">円<br><br>
-                <table border="1" id="editTbl">
+                <table border="1" id="table">
                 <tr>
                     <th class="item">項目</th>
                     <th class="kazu">数量</th>
