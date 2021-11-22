@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/openclose.js"></script>
     <script src="js/fixmenu_pagetop.js"></script>
+    <script src="js/budget.js"></script>
     <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -67,7 +68,7 @@
             <section>
                 <div class="table">全体の費用の予算を入力してください</div>
                 <input type="text" style="height: 40px" id="cost">円<br><br>
-                <table border="1" class="table">
+                <table border="1" id="table">
                 <tr>
                     <th class="item">項目</th>
                     <th class="kazu">数量</th>
@@ -77,7 +78,7 @@
                 </tr>
                 <tr>
                     <td>挙式料</td>
-                    <td class="td"><input type="text" class="quan" value=""></td>
+                    <td class="td" ><input type="text" class="quan" value=""></td>
                     <td class="td"><input type="text" class="much" value=""></td>
                     <td class="price" value=""></td>
                     <td class="td"><input type="text" class="memo"></td>
@@ -139,7 +140,7 @@
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
             </table>
-            <table border="1" class="table">
+            <table border="1">
                 <tr>
                     <th colspan="2" class="item"></th>
                     <th class="kazu"></th>
@@ -163,7 +164,7 @@
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
             </table>
-            <table border="1" class="table">
+            <table border="1">
                 <tr>
                     <th colspan="2" class="item"></th>
                     <th class="kazu"></th>
@@ -187,7 +188,7 @@
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
             </table>
-            <table border="1" class="table">
+            <table border="1">
                 <tr>
                     <th colspan="2" class="item"></th>
                     <th class="kazu"></th>
@@ -225,7 +226,7 @@
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
             </table>
-            <table border="1" class="table">
+            <table border="1">
                 <tr>
                     <th colspan="2" class="item"></th>
                     <th class="kazu"></th>
@@ -249,7 +250,7 @@
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
             </table>
-            <table border="1" class="table">
+            <table border="1">
                 <tr>
                     <th colspan="2" class="item"></th>
                     <th class="kazu"></th>
@@ -273,7 +274,7 @@
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
             </table>
-            <table border="1" class="table">
+            <table border="1">
                     <tr>
                         <th colspan="2" class="item"></th>
                         <th class="kazu"></th>
@@ -325,7 +326,7 @@
                         <td class="td"><input type="text"class="memo"></td>
                     </tr>
                 </table>
-                <table border="1" class="table">
+                <table border="1">
                     <tr>
                         <th colspan="2" class="item"></th>
                         <th class="kazu"></th>
