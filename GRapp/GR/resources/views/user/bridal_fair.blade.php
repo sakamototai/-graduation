@@ -75,11 +75,12 @@
 
                 <h3>式場の名前を入力し、検索ボタンを押してください</h3>
                 <input type="text" id="searchword" placeholder="式場名・エリアを入力する" class="nice-textbox">
-                <input type="button" value="検索" id="search" onclick="Search()" >
+                <p href="" class="btn btn--blue btn--emboss btn--cubic" id="search">PUSH！</p>
+                
                 <button id="modalOpen" >エリアで検索</button>
 
                 <h2 id="searchconditions"></h2>
-                <ul id="ceremonylist" class="disc">　
+                <ul id="ceremonylist">　
 
                 </ul>
                 <div id="easyModal" class="modal">
@@ -90,16 +91,16 @@
                 </div>
                 <div class="modal-body">
                     <div id="pf">
-                        <label><input type="radio" name="prefectures" value="0" onchange="pfCheck(this)">岡山</label>
-                        <label><input type="radio" name="prefectures" value="1" onchange="pfCheck(this)">広島</label>
-                        <label><input type="radio" name="prefectures" value="2" onchange="pfCheck(this)">山口</label>
-                        <label><input type="radio" name="prefectures" value="3" onchange="pfCheck(this)">鳥取</label>
-                        <label><input type="radio" name="prefectures" value="4" onchange="pfCheck(this)">島根</label>
+                        <label><input type="radio" name="prefectures" value="0" onchange="pfCheck(this)" class="pf">岡山</label>
+                        <label><input type="radio" name="prefectures" value="1" onchange="pfCheck(this)" class="pf">広島</label>
+                        <label><input type="radio" name="prefectures" value="2" onchange="pfCheck(this)" class="pf">山口</label>
+                        <label><input type="radio" name="prefectures" value="3" onchange="pfCheck(this)" class="pf">鳥取</label>
+                        <label><input type="radio" name="prefectures" value="4" onchange="pfCheck(this)" class="pf">島根</label>
                     </div>
                     <div id="area">
 
                     </div>
-                    <button onclick="selectSearch()" id="as">検索</button>
+                    <button id="as">検索</button>
                 </div>
             </div>
         </div>
