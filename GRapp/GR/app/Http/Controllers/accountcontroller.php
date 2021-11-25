@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\DB;
 
 use Illuminate\Http\Request;
-
+use App\Models\TblColumn;
 class accountController extends Controller
 {
  
@@ -19,9 +19,10 @@ class accountController extends Controller
         return view('user.schedule');
     }
     public function column1($id ='0'){
-        return view('column.columncontents');
-        $items = DB::select('select * from tbl_column');
-        return view('column.columncontents',['item'=> $items]);
+        $matchThese = ['id' =>$id];
+        $item = TblColumn::where($matchThese)->first();
+        // $items = DB::select('select * from tbl_column');
+        return view('column.columncontents',['item'=> $item,'id'=>$id]);
     }
     public function budget(){
         return view('user.budget');
