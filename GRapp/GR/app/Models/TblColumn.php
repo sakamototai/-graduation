@@ -29,16 +29,16 @@ class TblColumn extends Model
         return $this->birth;
     }
     public function getHeading(){
-        return $this->kisotu;
+        return $this->heading;
     }
     // $this -> photo. ',' .$this -> subtitle. ',' .$this -> content
     public function getPhoto(){
         return $this->photo;
     }
     public function getSubtitle(){
-        return $this->photo;
+        return $this->subtitle;
     }
     public function getContent(){
-        return $this->photo;
+        return $this->content;
     }
 }

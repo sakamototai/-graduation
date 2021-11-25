@@ -90,6 +90,7 @@
         <div id="main">
 
             <section>
+                <h1>{{$item -> getContent()}}</h1>
                 <h2>{{$item -> getTitle()}}</h2>
                 <img src="../images/column/{{$item -> getPhoto()}}">
                 <h3>利用規約のご案内</h3>
@@ -106,7 +107,6 @@
             </section>
 
             <section>
-
                 <h2>当テンプレートについて</h2>
 
                 <h3>当テンプレートはレスポンシブWEBデザインです</h3>
