@@ -104,7 +104,7 @@
                     <p>ここに説明を入れます。サンプルテキスト。</p>
                 </div>
                 <div class="list">
-                    <a href="chat">
+                    <a href="column/2">
                         <figure><img src="images/sample1.jpg" alt=""></figure>
                         <h4>オンライン婚活パーティって何？メリットや成功の秘訣</h4>
                         <p class="popular">人気</p>

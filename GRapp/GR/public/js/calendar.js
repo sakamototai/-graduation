@@ -3,7 +3,7 @@
 // since 2009-11-03
 // author AKIYAMA Kouhei
 
-// require holiday.js (function ktHolidayName)
+// require holiday.js (function ktHolidayName)f
 // require calendar_db_*.js (function/class CalendarData)
 function CalendarData()
 {

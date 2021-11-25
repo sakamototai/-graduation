@@ -74,4 +74,5 @@ video {
   min-height: 100px;
   padding: 8px;
   margin-top: 0;
+  overflow:scroll;
 }

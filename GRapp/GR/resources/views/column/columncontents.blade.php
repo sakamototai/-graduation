@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ケーキショップ向け 無料ホームページテンプレート tp_cute2</title>
+    <title>{{$item->getId().$item -> getTitle()}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="ここにサイト説明を入れます">
     <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css?123">
     <script src="js/openclose.js"></script>
     <script src="js/fixmenu_pagetop.js"></script>
     <!--[if lt IE 9]>
@@ -90,9 +90,8 @@
         <div id="main">
 
             <section>
-
-                <h2>テンプレートのご利用前に必ずお読み下さい</h2>
-
+                <h2>{{$item -> getTitle()}}</h2>
+                <img src="../images/column/{{$item -> getPhoto()}}">
                 <h3>利用規約のご案内</h3>
                 <p>このテンプレートは、<a href="https://template-party.com/">Template Party</a>にて無料配布している『ケーキショップ向け 無料ホームページテンプレート tp_cute2』です。必ずダウンロード先のサイトの<a href="https://template-party.com/read.html">利用規約</a>をご一読の上でご利用下さい。</p>
                 <p><strong class="color1">■HP最下部の著作表示『Web Design:Template-Party』は無断で削除しないで下さい。</strong><br> わざと見えなく加工する事も禁止です。
