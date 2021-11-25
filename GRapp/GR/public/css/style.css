@@ -529,6 +529,14 @@ body.is-fixed-pagetop .nav-fix-pos-pagetop a {
 .price{
 	width: 200px;
 	background-color: #ebfafc;
+	text-align: right;
+	color:rgb(121, 120, 120);
+}
+.ppp{
+	width: 200px;
+	background-color: #ebfafc;
+	text-align: right;
+	
 }
 .memo{
 	border:none;

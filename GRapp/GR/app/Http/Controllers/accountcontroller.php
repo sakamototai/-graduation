@@ -9,7 +9,7 @@ class accountController extends Controller
 {
  
     public function login(){
-        $items = DB::select('select * from user');
+        $items = DB::select('select * from test');
         return view('user.login',['item'=> $items]);
     }   
     public function home(){
