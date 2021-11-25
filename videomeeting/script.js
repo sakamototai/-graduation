@@ -116,8 +116,8 @@ const Peer = window.Peer;
     }
     mbtn.addEventListener('click',mute);
     vbtn.addEventListener('click',video);
-  var videoTrack = localStream.getVideoTracks()[0];
-  var audioTrack = localStream.getAudioTracks()[0];
+  var videoTrack = stream.getVideoTracks()[0];
+  var audioTrack = stream.getAudioTracks()[0];
     function mute(){
       if(audioTrack==true){
         audioTrack = false;
