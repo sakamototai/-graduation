@@ -1,14 +1,10 @@
 document.addEventListener("DOMContentLoaded",function(){
 
-    var price = {
-        sum:function(){
-            var cost = document.getElementById('cost');
-            var p1 = document.getElementById('p1');
-            var p2 = document.getElementById('p2');
-            var p3 = document.getElementById('p3');
-            var p4 = document.getElementById('p4');
-        }
-    }
+    //その他＋ボタン
+    document.getElementById('plus').addEventListener('click',function(){
+        var table = document.addEventListener('some');
+        table.innerHTML = ""
+    });
     //挙式料
     document.getElementById('1-1').addEventListener('change',function(){
         var kyoshiki = document.getElementById('1-1');

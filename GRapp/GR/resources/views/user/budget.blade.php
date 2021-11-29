@@ -206,7 +206,7 @@
                 </tr>       
                 <tr>    
                     <th>メインテーブル</th>
-                    <th class="td"><input type="text" class="quan" id="15-1"></td>
+                    <td class="td"><input type="text" class="quan" id="15-1"></td>
                     <td class="td"><input type="text" class="much" id="15-2"></td>
                     <td class="price" id="p15"></td>
                     <td class="td"><input type="text" class="memo"></td>
@@ -244,7 +244,7 @@
                 </tr>       
                 <tr>    
                     <th>新郎新婦への贈呈用</th>
-                    <th class="td"><input type="text" class="quan" id="19-1"></td>
+                    <td class="td"><input type="text" class="quan" id="19-1"></td>
                     <td class="td"><input type="text" class="much" id="19-2"></td>
                     <td class="price" id="p19"></td>
                     <td class="td"><input type="text" class="memo"></td>
@@ -328,14 +328,15 @@
             </table>
             <table border="1">
                 <tr>
-                    <th colspan="2" class="item"></th>
+                    <th colspan="2" class="item" id="some"></th>
                     <th class="kazu"></th>
                     <th></th>
                     <th></th>
                     <th></th>
                 </tr>
                 <tr>        
-                    <th rowspan="3" class="row">その他</th>
+                    <th rowspan="3" class="row">その他<input type="button" id="plus" class="button" value="＋">
+                    <input type="button" id="minus" class="button" value="ー"></th>
                     <td class="td"><input type="text" class="other"></td>
                     <td class="td"><input type="text" class="quan" id="28-1"></td>
                     <td class="td"><input type="text" class="much" id="28-2"></td>

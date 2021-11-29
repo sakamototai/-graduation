@@ -530,13 +530,14 @@ body.is-fixed-pagetop .nav-fix-pos-pagetop a {
 	width: 200px;
 	background-color: #ebfafc;
 	text-align: right;
+	font-family: serif;
 	color:rgb(121, 120, 120);
 }
 .ppp{
 	width: 200px;
 	background-color: #ebfafc;
 	text-align: right;
-	
+	font-family: serif;
 }
 .memo{
 	border:none;
@@ -571,4 +572,10 @@ body.is-fixed-pagetop .nav-fix-pos-pagetop a {
 }
 table th{
 	text-align: left;
+}
+.button{
+	padding: 1.5px;
+	margin: 1.5px;
+	border:none;
+	background-color: rgb(243, 206, 247);
 }
