@@ -175,6 +175,7 @@ ul.icon img:hover {
 	overflow: hidden;position: relative;
 	float: left;	/*左に回り込み*/
 	width: 20%;		/*幅*/
+	height: 40%;
 	margin-left: 2%;
 	margin-bottom: 30px;
 	font-size: 10px;	/*文字サイズ*/
