@@ -1,10 +1,164 @@
 document.addEventListener("DOMContentLoaded",function(){
 
-    //その他＋ボタン
-    document.getElementById('plus').addEventListener('click',function(){
-        var table = document.addEventListener('some');
-        table.innerHTML = ""
-    });
+    //予算金額入力処理
+    document.getElementById('cost').addEventListener('change',function(){  
+        var cost = document.getElementById('cost').value;
+        if (cost.match(/[0-9]+/g) != cost ) {
+            alert('半角数字で入力してください。');
+        } else {
+            var num = String(cost).replace( /(\d)(?=(\d\d\d)+(?!\d))/g, '$1,' );
+            document.getElementById('yosan').innerHTML = num + "円";
+        }
+    })
+    //カンマ取り除き
+    function removeComma(number) {
+        var removed = number.replace(/,/g, '');
+        return parseInt(removed, 10);
+    }
+
+    //金額計算
+    document.addEventListener('change',function(){
+        var kyoshiki = document.getElementById('1-1');
+        var pkyoshiki = document.getElementById('1-2');
+        var p1 = kyoshiki.value * pkyoshiki.value;
+
+        var kyoshiki = document.getElementById('1-1');
+        var pkyoshiki = document.getElementById('1-2');
+        var p2 = kyoshiki.value * pkyoshiki.value;
+
+        var kaijyou = document.getElementById('2-1');
+        var pkaijyou = document.getElementById('2-2');
+        var p3 = kaijyou.value * pkaijyou.value;
+
+        var hikae = document.getElementById('4-1');
+        var phikae = document.getElementById('4-2');
+        var p4 = hikae.value * phikae.value;
+        
+        var shikai = document.getElementById('5-1');
+        var pshikai = document.getElementById('5-2');
+        var p5 = shikai.value * pshikai.value;
+
+        var buke = document.getElementById('6-1');
+        var pbuke = document.getElementById('6-2');
+        var p6 = buke.value * pbuke.value;
+
+        var ongaku = document.getElementById('7-1');
+        var pongaku = document.getElementById('7-2');
+        var p7 = ongaku.value * pongaku.value;
+
+        var video = document.getElementById('8-1');
+        var pvideo= document.getElementById('8-2');
+        var p8 = video.value * pvideo.value;
+
+        var hikidemono= document.getElementById('9-1');
+        var phikidemono= document.getElementById('9-2');
+        var p9 = hikidemono.value * phikidemono.value;
+
+        var otona= document.getElementById('10-1');
+        var potona= document.getElementById('10-2');
+        var p10 = otona.value * potona.value;
+
+        var kodomo= document.getElementById('11-1');
+        var pkodomo= document.getElementById('11-2');
+        var p11 = kodomo.value * pkodomo.value;
+
+        var keki= document.getElementById('12-1');
+        var pkeki= document.getElementById('12-2');
+        var p12 = keki.value * pkeki.value;
+
+        var kyandoru = document.getElementById('13-1');
+        var pkyandoru = document.getElementById('13-2');
+        var p13 = kyandoru.value * pkyandoru.value;
+
+        var wedelingu = document.getElementById('14-1');
+        var pwedelingu = document.getElementById('14-2');
+        var p14 = wedelingu.value * pwedelingu.value;
+
+        var main = document.getElementById('15-1');
+        var pmain = document.getElementById('15-2');
+        var p15 = main.value * pmain.value;
+
+        var takujyou = document.getElementById('16-1');
+        var ptakujyou = document.getElementById('16-2');
+        var p16 = takujyou.value * ptakujyou.value;
+
+        var buraidaru = document.getElementById('17-1');
+        var pburaidaru = document.getElementById('17-2');
+        var p17 = buraidaru.value * pburaidaru.value;
+
+        var ryoushin = document.getElementById('18-1');
+        var pryoushin = document.getElementById('18-2');
+        var p18 = ryoushin.value * pryoushin.value;
+
+        var shinrou = document.getElementById('19-1');
+        var pshinrou = document.getElementById('19-2');
+        var p19 = shinrou.value * pshinrou.value;
+
+        var sutajio = document.getElementById('20-1');
+        var psutajio = document.getElementById('20-2');
+        var p20 = sutajio.value * psutajio.value;
+
+        var sunap = document.getElementById('21-1');
+        var psunap = document.getElementById('21-2');
+        var p21 = sunap.value * psunap.value;
+
+        var kaijyou = document.getElementById('22-1');
+        var pkaijyou = document.getElementById('22-2');
+        var p22 = kaijyou.value * pkaijyou.value;
+
+        var biyoushi = document.getElementById('23-1');
+        var pbiyoushi = document.getElementById('23-2');
+        var p23 = biyoushi.value * pbiyoushi.value;
+
+        var kituke = document.getElementById('24-1');
+        var pkituke = document.getElementById('24-2');
+        var p24 = kituke.value * pkituke.value;
+
+        var syashin = document.getElementById('25-1');
+        var psyashin = document.getElementById('25-2');
+        var p25 = syashin.value * psyashin.value;
+
+        var uketuke = document.getElementById('26-1');
+        var puketuke = document.getElementById('26-2');
+        var p26 = uketuke.value * puketuke.value;
+
+        var keiyaku = document.getElementById('27-1');
+        var pkeiyaku = document.getElementById('27-2');
+        var p27 = keiyaku.value * pkeiyaku.value;
+
+        var sonota1 = document.getElementById('28-1');
+        var psonota1 = document.getElementById('28-2');
+        var p28 = sonota1.value * psonota1.value;
+
+        var sonota2 = document.getElementById('29-1');
+        var psonota2 = document.getElementById('29-2');
+        var p29 = sonota2.value * psonota2.value;
+
+        var sonota3 = document.getElementById('30-1');
+        var psonota3 = document.getElementById('30-2');
+        var p30 = sonota3.value * psonota3.value;
+
+        //合計算出
+        var sum = 0;
+        sum = p1+p2+p3+p4+p5+p6+p7+p8+p9+p10+p11+p12+p13+p14+p15+p16+p17+p18+p19+p20+p21+p22+p23+p24+p25+p26+p27+p28+p29+p30;
+        var result = Number(sum).toLocaleString();
+        document.getElementById('sum').innerHTML = "¥" + result;
+
+        //予算差額
+        var cost = document.getElementById('cost');
+        var diff = cost.value - sum;
+        var newdiff = Number(diff).toLocaleString();
+        if(diff > 0){
+            document.getElementById('diff').innerHTML = "+" + newdiff;
+            document.getElementById("diff").style.color = "blue";
+        }else{
+            document.getElementById('diff').innerHTML = newdiff;
+            document.getElementById("diff").style.color = "red";
+        }
+    })
+
+
+
     //挙式料
     document.getElementById('1-1').addEventListener('change',function(){
         var kyoshiki = document.getElementById('1-1');
