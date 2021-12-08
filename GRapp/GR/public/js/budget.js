@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded",function(){
 
     //予算金額入力処理
-    document.getElementById('cost').addEventListener('change',function(){  
+    document.getElementById('cost').addEventListener('change',function(){
         var cost = document.getElementById('cost').value;
         if (cost.match(/[0-9]+/g) != cost ) {
             alert('半角数字で入力してください。');
@@ -10,24 +10,23 @@ document.addEventListener("DOMContentLoaded",function(){
             document.getElementById('yosan').innerHTML = num + "円";
         }
     })
-    //カンマ取り除き
-    function removeComma(number) {
-        var removed = number.replace(/,/g, '');
-        return parseInt(removed, 10);
-    }
-
+    
     //金額計算
-    document.addEventListener('change',function(){
+    document.addEventListener('change',function(){;
+
+        var cost = document.getElementById('cost');
+        cost.value="";
+
         var kyoshiki = document.getElementById('1-1');
         var pkyoshiki = document.getElementById('1-2');
         var p1 = kyoshiki.value * pkyoshiki.value;
-
-        var kyoshiki = document.getElementById('1-1');
-        var pkyoshiki = document.getElementById('1-2');
+        
+        var kyoshiki = document.getElementById('2-1');
+        var pkyoshiki = document.getElementById('2-2');
         var p2 = kyoshiki.value * pkyoshiki.value;
 
-        var kaijyou = document.getElementById('2-1');
-        var pkaijyou = document.getElementById('2-2');
+        var kaijyou = document.getElementById('3-1');
+        var pkaijyou = document.getElementById('3-2');
         var p3 = kaijyou.value * pkaijyou.value;
 
         var hikae = document.getElementById('4-1');
