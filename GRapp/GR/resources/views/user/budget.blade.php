@@ -68,6 +68,7 @@
             <section>
                 <div class="table">全体の費用の予算を入力してください</div>
                 <input type="text" style="height: 40px" id="cost">円<br><br>
+                <div>予算金額：<span id="yosan"></span></div>
                 <table border="1" id="table">
                 <tr>
                     <th class="item">　　　　　　項目</th>
@@ -80,63 +81,63 @@
                     <th>挙式料</th>
                     <td class="td" ><input type="text" class="quan" id="1-1"></td>
                     <td class="td"><input type="text" class="much" id="1-2"></td>
-                    <td class="ppp" id="p1"></td>
+                    <td class="price" id="p1"></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
                 <tr>
                     <th>会場料</th>
                     <td class="td"><input type="text" class="quan" id="2-1"></td>
                     <td class="td"><input type="text" class="much" id="2-2"></td>
-                    <td class="ppp" id="p2"></td>
+                    <td class="price" id="p2"></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
                 <tr>
                     <th>介添料</th>
                     <td class="td"><input type="text" class="quan" id="3-1"></td>
                     <td class="td"><input type="text" class="much" id="3-2"></td>
-                    <td class="ppp"  id="p3"></td>
+                    <td class="price"  id="p3"></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
                 <tr>
                     <th>控え室料</th>
                     <td class="td"><input type="text" class="quan" id="4-1"></td>
                     <td class="td"><input type="text" class="much" id="4-2"></td>
-                    <td class="ppp" id="p4"></td>
+                    <td class="price" id="p4"></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
                 <tr>
                     <th>司会料</th>
                     <td class="td"><input type="text" class="quan" id="5-1"></td>
                     <td class="td"><input type="text" class="much" id="5-2"></td>
-                    <td class="ppp" id="p5"></td>
+                    <td class="price" id="p5"></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
                 <tr>
                     <th>ブーケ・ブートニア</th>
                     <td class="td"><input type="text" class="quan" id="6-1"></td>
                     <td class="td"><input type="text" class="much" id="6-2"></td>
-                    <td class="ppp" id="p6"></td>
+                    <td class="price" id="p6"></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
                 <tr>
                     <th>音楽</th>
                     <td class="td"><input type="text" class="quan" id="7-1"></td>
                     <td class="td"><input type="text" class="much" id="7-2"></td>
-                    <td class="ppp" id="p7"></td>
+                    <td class="price" id="p7"></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
                 <tr>
                     <th>ビデオ</th>
                     <td class="td"><input type="text" class="quan" id="8-1"></td>
                     <td class="td"><input type="text" class="much" id="8-2"></td>
-                    <td class="ppp" id="p8"></td>
+                    <td class="price" id="p8"></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
                 <tr>
                     <th>引き出物</th>
                     <td class="td"><input type="text" class="quan" id="9-1"></td>
                     <td class="td"><input type="text" class="much" id="9-2"></td>
-                    <td class="ppp" id="p9"></td>
+                    <td class="price" id="p9"></td>
                     <td class="td"><input type="text" class="memo"></td>
                 </tr>
             </table>
@@ -335,8 +336,7 @@
                     <th></th>
                 </tr>
                 <tr>        
-                    <th rowspan="3" class="row">その他<input type="button" id="plus" class="button" value="＋">
-                    <input type="button" id="minus" class="button" value="ー"></th>
+                    <th rowspan="3" class="row">その他</th>
                     <td class="td"><input type="text" class="other"></td>
                     <td class="td"><input type="text" class="quan" id="28-1"></td>
                     <td class="td"><input type="text" class="much" id="28-2"></td>
