@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{$item->getId().$item -> getTitle()}}</title>
+    <title>{{$item -> getTitle()}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="ここにサイト説明を入れます">
     <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
     <link rel="stylesheet" href="../css/style.css?123">
-    <script src="js/openclose.js"></script>
-    <script src="js/fixmenu_pagetop.js"></script>
+    <script src="../js/openclose.js"></script>
+    <script src="../js/fixmenu_pagetop.js"></script>
     <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -90,19 +90,28 @@
         <div id="main">
 
             <section>
-                <h1>{{$item -> getContent()}}</h1>
                 <h2>{{$item -> getTitle()}}</h2>
-                <img src="../images/column/{{$item -> getPhoto()}}">
-                <h3>利用規約のご案内</h3>
-                <p>このテンプレートは、<a href="https://template-party.com/">Template Party</a>にて無料配布している『ケーキショップ向け 無料ホームページテンプレート tp_cute2』です。必ずダウンロード先のサイトの<a href="https://template-party.com/read.html">利用規約</a>をご一読の上でご利用下さい。</p>
-                <p><strong class="color1">■HP最下部の著作表示『Web Design:Template-Party』は無断で削除しないで下さい。</strong><br> わざと見えなく加工する事も禁止です。
-                </p>
-                <p><strong class="color1">■下部の著作を外したい場合は</strong><br>
-                    <a href="https://template-party.com/">Template-Party</a>の<a href="https://template-party.com/member.html">ライセンス契約</a>を行う事でHP下部の著作を外す事ができます。</p>
+                <div>
+                    <img src="../images/column/{{$item -> getsamnail()}}" style="float:left;">
+                    <a href="">{{$item -> getTag(2)}}</a>
+                    <!-- タグの作成中 -->
+                    <p>{{$item -> getIntroduction()}}
+                    </p>
+                </div>
+                <!-- <p><strong class="color1">■HP最下部の著作表示『Web Design:Template-Party』は無断で削除しないで下さい。</strong><br>
+                    わざと見えなく加工する事も禁止です。強調のやり方
+                </p> -->
+                <!-- <p><strong class="color1">■下部の著作を外したい場合は</strong><br>
+                    <a href="https://template-party.com/">Template-Party</a>の<a
+                        href="https://template-party.com/member.html">ライセンス契約</a>を行う事でHP下部の著作を外す事ができます。
+                </p> -->
 
                 <h3>テンプレートに梱包されているjsファイル(javascript)について</h3>
-                <p>これらのファイルは全て<a href="https://www.crytus.info/" target="_blank">クリタス様</a>提供のプログラムです。jsファイルは改変せずにご利用下さい。<br> また、当サイトのテンプレート以外に使いたいなど、「プログラムのみ」を使う場合は
-                    <a href="https://template-party.com/free_program/openclose_license.html">こちらの規約</a>をお守り下さい。</p>
+                <p>これらのファイルは全て<a href="https://www.crytus.info/"
+                        target="_blank">クリタス様</a>提供のプログラムです。jsファイルは改変せずにご利用下さい。<br>
+                    また、当サイトのテンプレート以外に使いたいなど、「プログラムのみ」を使う場合は
+                    <a href="https://template-party.com/free_program/openclose_license.html">こちらの規約</a>をお守り下さい。
+                </p>
 
             </section>
 
@@ -110,7 +119,8 @@
                 <h2>当テンプレートについて</h2>
 
                 <h3>当テンプレートはレスポンシブWEBデザインです</h3>
-                <p>パソコン、スマホ、タブレットなど、各端末サイズでレイアウトが自動で切り替わります。<br> 古いブラウザで閲覧した場合にCSSの一部が適用されない（角を丸くする加工やグラデーションなどの加工等）のでご注意下さい。IE9以下の挙動は考慮していません。
+                <p>パソコン、スマホ、タブレットなど、各端末サイズでレイアウトが自動で切り替わります。<br>
+                    古いブラウザで閲覧した場合にCSSの一部が適用されない（角を丸くする加工やグラデーションなどの加工等）のでご注意下さい。IE9以下の挙動は考慮していません。
                 </p>
 
                 <h3>各デバイスごとのレイアウトチェックは</h3>
@@ -119,7 +129,8 @@
 
                 <h3>各デバイス用のスタイル変更は</h3>
                 <p>cssフォルダの各cssファイルで行って下さい。詳しい説明も入っています。<br> 前半はパソコン環境を含めた全端末の共通設定になります。中盤以降、各端末向けのスタイルが追加設定されています。
-                    <br> media=&quot; (～)&quot;の「～」部分でcssを切り替えるディスプレイのサイズを設定しています。ここは必要に応じて変更も可能です。</p>
+                    <br> media=&quot; (～)&quot;の「～」部分でcssを切り替えるディスプレイのサイズを設定しています。ここは必要に応じて変更も可能です。
+                </p>
 
                 <h3>小さい端末（※幅900px以下）の環境でのみ</h3>
                 <p>メインメニューが折りたたみ式（３本バーアイコン化）になります。バーのスタイル設定もstyle.cssで行う事ができます。</p>
@@ -132,17 +143,20 @@
 
                 <h3>初心者向けマニュアル公開中</h3>
                 <p>画像加工やテンプレートの編集方法、無料サーバーを使ってサイトを公開するなど動画をまじえてわかりやすく解説しています。<br>
-                    <a href="https://template-party.com/file/" target="_blank">初心者向けマニュアルはこちら。</a></p>
+                    <a href="https://template-party.com/file/" target="_blank">初心者向けマニュアルはこちら。</a>
+                </p>
 
                 <h3>注意：当テンプレートにはメインメニューが「２箇所」入っています</h3>
-                <p>パソコンなどの大きな端末「menubar（幅901px以上）」向けと、タブレットやスマホなどの小さな端末「menubar-s（幅900px以下）」向けがそれぞれ入っています。大きな端末向けは編集ソフトで見れると思いますが、小さな端末向けは見えないと思いますのでhtml側で編集して下さい。</p>
+                <p>パソコンなどの大きな端末「menubar（幅901px以上）」向けと、タブレットやスマホなどの小さな端末「menubar-s（幅900px以下）」向けがそれぞれ入っています。大きな端末向けは編集ソフトで見れると思いますが、小さな端末向けは見えないと思いますのでhtml側で編集して下さい。
+                </p>
 
                 <h3>titleタグ、copyright、metaタグ、他の設定</h3>
                 <p><strong class="color1">titleタグの設定はとても重要です。念入りにワードを選んで適切に入力しましょう。</strong><br> まず、htmlソースが見れる状態にして、
                     <br>
                     <span class="look">&lt;title&gt;ケーキショップ向け 無料ホームページテンプレート tp_cute2&lt;/title&gt;</span><br> を編集しましょう。
                     <br> あなたのホームページ名が「Macarron Shop」だとすれば、<br>
-                    <span class="look">&lt;title&gt;Macarron Shop&lt;/title&gt;</span><br> とすればＯＫです。SEO対策もするなら冒頭に重要なワードを入れておきましょう。
+                    <span class="look">&lt;title&gt;Macarron Shop&lt;/title&gt;</span><br>
+                    とすればＯＫです。SEO対策もするなら冒頭に重要なワードを入れておきましょう。
                 </p>
                 <p><strong class="color1">copyrightを変更しましょう。</strong><br> 続いてhtmlの下の方にある、
                     <br>
@@ -151,10 +165,12 @@
                 <p><strong class="color1">metaタグを変更しましょう。</strong><br> htmlソースが見える状態にしてmetaタグを変更しましょう。
                 </p>
                 <p>ソースの上の方に、<br>
-                    <span class="look">content=&quot;ここにサイト説明を入れます&quot;</span><br> という部分がありますので、テキストをサイトの説明文に入れ替えます。検索結果の文面に使われる場合もありますので、見た人が来訪したくなるような説明文を簡潔に書きましょう。
+                    <span class="look">content=&quot;ここにサイト説明を入れます&quot;</span><br>
+                    という部分がありますので、テキストをサイトの説明文に入れ替えます。検索結果の文面に使われる場合もありますので、見た人が来訪したくなるような説明文を簡潔に書きましょう。
                 </p>
                 <p>続いて、その下の行の<br>
-                    <span class="look">content=&quot;キーワード１,キーワード２,～～～&quot;</span><br> も設定します。ここはサイトに関係のあるキーワードを入れる箇所です。10個前後ぐらいあれば充分です。キーワード間はカンマ「,」で区切ります。
+                    <span class="look">content=&quot;キーワード１,キーワード２,～～～&quot;</span><br>
+                    も設定します。ここはサイトに関係のあるキーワードを入れる箇所です。10個前後ぐらいあれば充分です。キーワード間はカンマ「,」で区切ります。
                 </p>
                 <p><strong class="color1">h1ロゴのaltタグも変更しましょう。</strong><br> html側に、
                     <br>
@@ -162,7 +178,8 @@
                 </p>
 
                 <h3>左上にある白いロゴ画像について</h3>
-                <p>文字なしの土台画像がbaseフォルダに入っていますのでそれにサイト名をのせて../imagesフォルダに上書きして下さい。画像の大きさは自由に変更してもらっても構いませんがある程度大きくしておいた方が高解像度の端末で鮮明に見えます。</p>
+                <p>文字なしの土台画像がbaseフォルダに入っていますのでそれにサイト名をのせて../imagesフォルダに上書きして下さい。画像の大きさは自由に変更してもらっても構いませんがある程度大きくしておいた方が高解像度の端末で鮮明に見えます。
+                </p>
 
                 <h3>ロゴ下の色のついた大見出し</h3>
                 <p>こちらは、文字は直接htmlに記入されていますので必要に応じて入れ替えて下さい。<br> あまり文字数が長いと飛び出るのでコンパクトにして下さい。
@@ -176,9 +193,11 @@
                     <span class="look">.slide0,.slide2,.slide3 {display:none;}</span><br> 部分です。
                     <br> この場合、slide1画像のみが表示されます。（上のcssは、slide0,slide2,slide3を非表示にする設定）
                 </p>
-                <p><strong class="color1">画像を入れ替えたい場合</strong><br> 「0.jpg」「1.jpg」「2.jpg」「3.jpg」の3枚のjpg画像を用意して../imagesフォルダに上書きして下さい。
+                <p><strong class="color1">画像を入れ替えたい場合</strong><br>
+                    「0.jpg」「1.jpg」「2.jpg」「3.jpg」の3枚のjpg画像を用意して../imagesフォルダに上書きして下さい。
                 </p>
-                <p>拡張子が「jpeg」や「JPG」と少し違った場合にうまく表示できない可能性があるので「jpg」で統一して下さい。画像を「jpg」にできない場合はhtml側の拡張子指定を変更しても構いません。<br> 画像の容量はできるだけ軽くして下さい。重いと初動の動きがガタつきます。
+                <p>拡張子が「jpeg」や「JPG」と少し違った場合にうまく表示できない可能性があるので「jpg」で統一して下さい。画像を「jpg」にできない場合はhtml側の拡張子指定を変更しても構いません。<br>
+                    画像の容量はできるだけ軽くして下さい。重いと初動の動きがガタつきます。
                     <br> 画像サイズについては、cssの背景画像（cover）なので適当で構いません。ただ、縦端末、横端末で画像がトリミングされますので、切れてもおかしくない画像を用意して下さい。
                 </p>
                 <p><strong class="color1">固定画像にしたい場合</strong><br> style-top.cssの冒頭にある、
@@ -214,12 +233,15 @@
                 </ol>
 
                 <h3>ページ最上部にある装飾用写真の説明</h3>
-                <p>このページのように、ページによって別画像にしたい場合、まずは背景用画像を準備し（当ページならbg2.jpg）../imagesフォルダに入れます。<br> 次に、cssフォルダのstyle.cssの冒頭の方にある、
+                <p>このページのように、ページによって別画像にしたい場合、まずは背景用画像を準備し（当ページならbg2.jpg）../imagesフォルダに入れます。<br>
+                    次に、cssフォルダのstyle.cssの冒頭の方にある、
                     <br>
-                    <span class="look">body.bg2 {background-image: url(../../images/bg2.jpg);}</span><br> の行のように画像を上書きするスタイルを追加して下さい。
+                    <span class="look">body.bg2 {background-image: url(../../images/bg2.jpg);}</span><br>
+                    の行のように画像を上書きするスタイルを追加して下さい。
                     <br> 追加したら、あとはhtml側のbodyタグにこれを指定すればOKです。
                     <br>
-                    <span class="look">&lt;body <span class="color1">class=&quot;bg2&quot;</span>&gt;</span><br> 補足：cssファイルのドット(.)と、htmlファイルのclassは同じ意味です。単にcssファイルとhtmlにより表記方法が異なるだけです。
+                    <span class="look">&lt;body <span class="color1">class=&quot;bg2&quot;</span>&gt;</span><br>
+                    補足：cssファイルのドット(.)と、htmlファイルのclassは同じ意味です。単にcssファイルとhtmlにより表記方法が異なるだけです。
                 </p>
                 <p>bodyタグにスタイル指定がなければ、このページ「以外」のように背景画像(bg.jpg)が共通で適用されます。</p>
 
@@ -236,7 +258,8 @@
 
         <footer>
             <small>Copyright&copy; <a href="index.html">Macaroon Shop</a> All Rights Reserved.</small>
-            <span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+            <span class="pr"><a href="https://template-party.com/" target="_blank">《Web
+                    Design:Template-Party》</a></span>
         </footer>
 
     </div>
