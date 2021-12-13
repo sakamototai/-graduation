@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ビデオルーム </title>
-    <link rel="stylesheet" href="/videomeeting/_shared/style.css">
+    <link rel="stylesheet" href="css/online.css">
   </head>
   <body>
     <div class="container">
@@ -38,7 +38,7 @@
       <p class="meta" id="js-meta"></p>
     </div>
     <script src="//cdn.webrtc.ecl.ntt.com/skyway-4.4.3.js"></script>
-    <script src="/videomeeting/_shared/key.js"></script>
-    <script src="/videomeeting/script.js"></script>
+    <script src="js/key.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

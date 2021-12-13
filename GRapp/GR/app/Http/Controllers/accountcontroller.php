@@ -37,6 +37,6 @@ class accountController extends Controller
         return view('user.column');
     }
     public function onlinereserve(){
-        return view('user.online_reserve');
+        return view('user.online');
     }
 }
