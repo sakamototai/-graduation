@@ -75,13 +75,13 @@
 
                 <h3>式場の名前を入力し、検索ボタンを押してください</h3>
                 <input type="text" id="searchword" placeholder="式場名・エリアを入力する" class="nice-textbox">
-                <p href="" class="btn btn--blue btn--emboss btn--cubic" id="search">PUSH！</p>
+                <p href="" class="btn btn--blue btn--emboss btn--cubic" id="search" onclick="Search()">PUSH！</p>
                 
                 <button id="modalOpen" >エリアで検索</button>
 
                 <h2 id="searchconditions"></h2>
-                <ul id="ceremonylist">　
-
+                <ul id="ceremonylist">
+                    
                 </ul>
                 <div id="easyModal" class="modal">
             <div class="modal-content">
@@ -100,7 +100,7 @@
                     <div id="area">
 
                     </div>
-                    <button id="as">検索</button>
+                    <button id="as" onclick="selectSearch()">検索</button>
                 </div>
             </div>
         </div>
