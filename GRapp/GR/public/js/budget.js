@@ -1,26 +1,21 @@
 document.addEventListener("DOMContentLoaded",function(){
 
-    //予算金額入力処理
-    document.getElementById('cost').addEventListener('change',function(){
-        var cost = document.getElementById('cost').value;
-        if (cost.match(/[0-9]+/g) != cost ) {
-            alert('半角数字で入力してください。');
-        } else {
-            var num = String(cost).replace( /(\d)(?=(\d\d\d)+(?!\d))/g, '$1,' );
-            document.getElementById('yosan').innerHTML = num + "円";
-        }
-    })
-    
     //金額計算
     document.addEventListener('change',function(){;
 
-        var cost = document.getElementById('cost');
-        cost.value="";
+        var cost = document.getElementById('cost').value;
+        if (cost.match(/[0-9]+/g) != cost ) {
+            alert('半角数字で入力してください。');
+            cost = "";
+        }else {
+            var num = String(cost).replace( /(\d)(?=(\d\d\d)+(?!\d))/g, '$1,' );
+            document.getElementById('yosan').innerHTML = num + "円";
+        }
 
         var kyoshiki = document.getElementById('1-1');
         var pkyoshiki = document.getElementById('1-2');
         var p1 = kyoshiki.value * pkyoshiki.value;
-        
+
         var kyoshiki = document.getElementById('2-1');
         var pkyoshiki = document.getElementById('2-2');
         var p2 = kyoshiki.value * pkyoshiki.value;
