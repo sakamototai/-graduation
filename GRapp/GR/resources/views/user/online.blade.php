@@ -74,18 +74,16 @@
           <input type="text" id="js-local-text">
           <button id="js-send-trigger">送信</button>
         </div>
-      </div>
-      <div>
+        <div>
         <button id="mutebtn">ミュート</button>
-      </div>
-      <div>
         <button id="vbtn">カメラオフ</button>
+      </div>
       </div>
       <p class="meta" id="js-meta"></p>
       </div>
       </div>
     <script src="//cdn.webrtc.ecl.ntt.com/skyway-4.4.3.js"></script>
     <script src="js/key.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/online.js"></script>
   </body>
 </html>
