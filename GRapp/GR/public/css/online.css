@@ -76,3 +76,6 @@ video {
   margin-top: 0;
   overflow:scroll;
 }
+.online {
+  transform: translateX(100px);
+}

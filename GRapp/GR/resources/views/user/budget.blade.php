@@ -53,7 +53,7 @@
                 <li><a href="column"><span>column</span><span>コラム特集</span></a></li>
                 <li><a href="bridal_fair"><span>bridalfair</span><span>ブライダルフェア</span></a></li>
                 <li><a href="chat"><span>chat</span><span>チャット</span></a></li>
-                <li><a href="online_reserve"><span>consultation</span><span>オンライン相談予約</span></a></li>
+                <li><a href="online_reserve"><span>consultation</span><span>オンライン相談</span></a></li>
             </ul>
             <ul class="icon">
                 <li><a href="#"><img src="images/icon_facebook.png" alt="Facebook"></a></li>
