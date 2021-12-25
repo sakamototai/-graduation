@@ -32,13 +32,13 @@ class TblColumn extends Model
     public function getIntroduction(){
         return $this->introduction;
     }
-    public function getHeading(int $x){
+    public function getHeding(int $x){
         if($x == 1){
-            return $this->heading1;
+            return $this->heding1;
         }else if($x == 2){
-            return $this->heading2;
+            return $this->heding2;
         }else{
-            return $this->heading3;
+            return $this->heding3;
         }
     }
     // $this -> photo. ',' .$this -> subtitle. ',' .$this -> content
@@ -56,17 +56,17 @@ class TblColumn extends Model
     }
     public function getSubheding(string $g){
         if($g == '11'){
-            return $this->subheading11;
+            return $this->subheding11;
         }else if($g == '12'){
-            return $this->subheading12;
+            return $this->subheding12;
         }else if($g == '21'){
-            return $this->subheading21;
+            return $this->subheding21;
         }else if($g == '22'){
-            return $this->subheading22;
+            return $this->subheding22;
         }else if($g == '31'){
-            return $this->subheading31;
+            return $this->subheding31;
         }else{
-            return $this->subheading32;
+            return $this->subheding32;
         }
     }
     public function getContent(string $x){
