@@ -27,39 +27,17 @@
             <a href="home"><img src="images/MIA2.png" alt="Macaroon Shop"></a>
         </h1>
         <dl id="new">
-            <dt>2021/10/26</dt>
-            <dd>tp_cute2配布開始。</dd>
-            <dt>20XX/00/00</dt>
-            <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-            <dt>20XX/00/00</dt>
-            <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-            <dt>20XX/00/00</dt>
-            <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-            <dt>20XX/00/00</dt>
-            <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-            <dt>20XX/00/00</dt>
-            <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-            <dt>20XX/00/00</dt>
-            <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
+            <dt>2021/1/17</dt>
+            <dd>中間発表</dd>
         </dl>
     </header>
 
     <nav id="menubar">
         <ul>
-            <li><a href="schedule"><span>schedule</span><span>スケジュール</span></a></li>
-            <li><a href="budget"><span>budget</span><span>予算管理</span></a></li>
             <li><a href="column"><span>column</span><span>コラム特集</span></a></li>
             <li><a href="bridal_fair"><span>bridalfair</span><span>ブライダルフェア</span></a></li>
-            <li><a href="chat"><span>chat</span><span>チャット</span></a></li>
-            <li><a href="online_reserve"><span>consultation</span><span>オンライン相談</span></a></li>
         </ul>
     </nav>
-
-    <footer>
-        <small>Copyright&copy; <a href="index.html">Macaroon Shop</a> All Rights Reserved.</small>
-        <span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
-    </footer>
-
     <!--背景スライドショー-->
     <aside id="mainimg">
         <div class="slide0">slide0</div>
