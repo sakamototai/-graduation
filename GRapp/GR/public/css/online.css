@@ -9,11 +9,16 @@ video {
 
 .heading {
   text-align: center;
+  /*text-align: right;*/
+  position: relative;
+  left: 600px;
   margin-bottom: 0;
 }
 
 .note {
   text-align: center;
+  position: relative;
+  left: 600px;
 }
 
 .meta {
@@ -63,6 +68,9 @@ video {
   grid-template-columns: 30% 40% 30%;
   gap: 8px;
   margin: 0 8px;
+  margin: 0 18px;
+  position: relative;
+  left: 160px;
 }
 
 .room .remote-streams {

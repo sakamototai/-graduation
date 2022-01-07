@@ -94,6 +94,8 @@
                 <div>
                     <img src="../images/column/{{$item -> getsamnail()}}" style="float:left;">
                     <a href="">{{$item -> getTag(2)}}</a>
+                    <img src="../images/column/{{$item -> getsamnail()}}" style="float:left;width: 300px;">
+                    <a href="">{{$item -> getTag(1)}}</a>
                     <!-- タグの作成中 -->
                     <p>{{$item -> getIntroduction()}}
                     </p>
@@ -107,11 +109,13 @@
                 </p> -->
 
                 <h3>テンプレートに梱包されているjsファイル(javascript)について</h3>
+                <!-- <h3>テンプレートに梱包されているjsファイル(javascript)について</h3>
                 <p>これらのファイルは全て<a href="https://www.crytus.info/"
                         target="_blank">クリタス様</a>提供のプログラムです。jsファイルは改変せずにご利用下さい。<br>
                     また、当サイトのテンプレート以外に使いたいなど、「プログラムのみ」を使う場合は
                     <a href="https://template-party.com/free_program/openclose_license.html">こちらの規約</a>をお守り下さい。
                 </p>
+                </p> -->
 
             </section>
 
@@ -119,6 +123,13 @@
                 <h2>当テンプレートについて</h2>
 
                 <h3>当テンプレートはレスポンシブWEBデザインです</h3>
+                <h2>{{$item->getHeding(1)}}</h2>
+                <img src="../images/column/{{$item->getPhoto(1)}}" alt="" style="width: 400px;">
+                <h3>{{$item->getSubheding('11')}}</h3>
+                <p>{{$item->getContent('11')}}</p>
+                <h3>{{$item->getSubheding('12')}}</h3>
+                <p>{{$item->getContent('12')}}</p>
+                <!-- <h3>当テンプレートはレスポンシブWEBデザインです</h3>
                 <p>パソコン、スマホ、タブレットなど、各端末サイズでレイアウトが自動で切り替わります。<br>
                     古いブラウザで閲覧した場合にCSSの一部が適用されない（角を丸くする加工やグラデーションなどの加工等）のでご注意下さい。IE9以下の挙動は考慮していません。
                 </p>
@@ -134,6 +145,7 @@
 
                 <h3>小さい端末（※幅900px以下）の環境でのみ</h3>
                 <p>メインメニューが折りたたみ式（３本バーアイコン化）になります。バーのスタイル設定もstyle.cssで行う事ができます。</p>
+                <p>メインメニューが折りたたみ式（３本バーアイコン化）になります。バーのスタイル設定もstyle.cssで行う事ができます。</p> -->
 
             </section>
 
@@ -142,6 +154,13 @@
                 <h2>当テンプレートの使い方</h2>
 
                 <h3>初心者向けマニュアル公開中</h3>
+                <h2>{{$item->getHeding(2)}}</h2>
+                <img src="../images/column/{{$item->getPhoto(2)}}" alt="" style="width: 400px;">
+                <h3>{{$item->getSubheding('21')}}</h3>
+                <p>{{$item->getContent('21')}}</p>
+                <h3>{{$item->getSubheding('22')}}</h3>
+                <p>{{$item->getContent('22')}}</p>
+                <!-- <h3>初心者向けマニュアル公開中</h3>
                 <p>画像加工やテンプレートの編集方法、無料サーバーを使ってサイトを公開するなど動画をまじえてわかりやすく解説しています。<br>
                     <a href="https://template-party.com/file/" target="_blank">初心者向けマニュアルはこちら。</a>
                 </p>
@@ -250,7 +269,16 @@
                     <br> ボタンの出現ポイントは、現在350pxの場所になっています。変更したい場合はfixmenu_pagetop.jsの34行目あたりにある、
                     <br> offsettop = 350;<br> の350を変更して下さい。
                 </p>
+                </p> -->
 
+            </section>
+            <section>
+                <h2>{{$item->getHeding(3)}}</h2>
+                <img src="../images/column/{{$item->getPhoto(3)}}" alt="" style="width: 400px;">
+                <h3>{{$item->getSubheding('31')}}</h3>
+                <p>{{$item->getContent('31')}}</p>
+                <h3>{{$item->getSubheding('32')}}</h3>
+                <p>{{$item->getContent('32')}}</p>
             </section>
 
         </div>
