@@ -21,6 +21,9 @@ class accountController extends Controller
     public function column1($id ='0'){
         $matchThese = ['id' =>$id];
         $item = TblColumn::where($matchThese)->first();
+        if($item == NULL){
+            return view('user.column');
+        }
         // $items = DB::select('select * from tbl_column');
         return view('column.columncontents',['item'=> $item,'id'=>$id]);
     }
