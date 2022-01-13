@@ -23,7 +23,7 @@
 
         <header>
             <h1 id="logo">
-                <a href="home"><img src="images/logo2.png" alt="Macaroon Shop"></a>
+                <a href="home"><img src="images/MIA2.png" alt="marriage integration app"></a>
             </h1>
             <h2>COLUMN<span>コラム</span></h2>
             <!--PC用（901px以上端末）メニュー-->
@@ -31,7 +31,7 @@
                 <ul>
                     <li><a href="home"><span>Home</span><span>ホーム</span></a></li>
                     <li><a href="column"><span>column</span><span>コラム特集</span></a></li>
-                    <li><a href="bridal_fair"><span>bridalfair</span><span>ブライダルフェア</span></a></li>
+                    <li><a href="bridal_fair"><span>ceremony</span><span>式場検索</span></a></li>
                 </ul>
                 <ul class="icon">
                     <li>
@@ -188,34 +188,6 @@
                     <a href="">tag</a><a href="">tag</a><a href="">tag</a>
                     <p>ここに説明を入れます。サンプルテキスト。</p>
                 </div>
-
-            </section>
-
-            <section>
-
-                <h2>※使い方注意</h2>
-
-                <h3>写真は正方形で準備して下さい</h3>
-                <p>長方形だと楕円形になってしまいます。<br> また、正方形だと思っていても1pxサイズが違うだけで段落ちする場合があるので必ず縦横サイズを統一して下さい。
-                </p>
-
-                <h3>商品名タイトルや説明を長くしすぎないで下さい</h3>
-                <p>多く書き込むと閲覧する画面サイズによって切れます（↓）。</p>
-
-                <div class="list">
-                    <figure><img src="images/sample2.jpg" alt=""></figure>
-                    <h4>長くしすぎると途中で切れて見える場合があるので注意して下さい。</h4>
-                    <p>長くしすぎると途中で切れて見える場合があるので注意して下さい。</p>
-                </div>
-
-                <p class="clear">表示領域を増やしたい場合は、cssフォルダのsytle.cssの<br> #main .list h4 {<br> や、
-                    <br> #main .list p {<br> のheightを調整して下さい。説明も書いてあります。
-                </p>
-                <p>尚、閲覧画面の幅が480px以下になると、３カラムから１カラムになるので、ここの切れてしまう制限は解除されています。</p>
-
-                <h3>写真の枠を円形ではなく、四角形や角丸四角形にもできます</h3>
-                <p>詳しくは、cssフォルダのstyle.cssの、<br> #main .list figure {<br> のブロックにあるborder-radiusの解説を見て下さい。
-                </p>
 
             </section>
 
