@@ -23,7 +23,7 @@
     <div id="container">
 
         <header>
-            <h1 id="logo"><a href="index.html"><img src="images/MIA2.png" alt="marriage integration app"></a></h1>
+            <h1 id="logo"><a href="home"><img src="images/MIA2.png" alt="marriage integration app"></a></h1>
             <h2>Ceremony<span>式場検索</span></h2>
             <!--PC用（901px以上端末）メニュー-->
             <nav id="menubar">
