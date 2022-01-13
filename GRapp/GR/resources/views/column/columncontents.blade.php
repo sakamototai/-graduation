@@ -23,19 +23,16 @@
 
         <header>
             <h1 id="logo">
-                <a href="index.html"><img src="../images/logo2.png" alt="Macaroon Shop"></a>
+                <a href="../home"><img src="../images/logo2.png" alt="Macaroon Shop"></a>
             </h1>
             <h2>Column<span>Columnのタイトル</span></h2>
             <!--PC用（901px以上端末）メニュー-->
             <nav id="menubar">
                 <ul>
                     <li><a href="../home"><span>Home</span><span>ホーム</span></a></li>
-                    <li><a href="../schedule"><span>schedule</span><span>スケジュール</span></a></li>
-                    <li><a href="../budget"><span>budget</span><span>予算管理</span></a></li>
                     <li><a href="../column"><span>column</span><span>コラム特集</span></a></li>
                     <li><a href="../bridal_fair"><span>bridalfair</span><span>ブライダルフェア</span></a></li>
-                    <li><a href="../chat"><span>chat</span><span>チャット</span></a></li>
-                    <li><a href="../online_reserve"><span>consultation</span><span>オンライン相談予約</span></a></li>
+
                 </ul>
                 <ul class="icon">
                     <li>
@@ -61,12 +58,9 @@
         <nav id="menubar-s">
             <ul>
                 <li><a href="../home"><span>Home</span><span>ホーム</span></a></li>
-                <li><a href="../schedule"><span>schedule</span><span>スケジュール</span></a></li>
-                <li><a href="../budget"><span>budget</span><span>予算管理</span></a></li>
                 <li><a href="../column"><span>column</span><span>コラム特集</span></a></li>
                 <li><a href="../bridal_fair"><span>bridalfair</span><span>ブライダルフェア</span></a></li>
-                <li><a href="../chat"><span>chat</span><span>チャット</span></a></li>
-                <li><a href="../online_reserve"><span>consultation</span><span>オンライン相談予約</span></a></li>
+
             </ul>
             <ul class="icon">
                 <li>
@@ -92,10 +86,8 @@
             <section>
                 <h2>{{$item -> getTitle()}}</h2>
                 <div>
-                    <img src="../images/column/{{$item -> getsamnail()}}" style="float:left;">
                     <a href="">{{$item -> getTag(2)}}</a>
                     <img src="../images/column/{{$item -> getsamnail()}}" style="float:left;width: 300px;">
-                    <a href="">{{$item -> getTag(1)}}</a>
                     <!-- タグの作成中 -->
                     <p>{{$item -> getIntroduction()}}
                     </p>
@@ -107,8 +99,6 @@
                     <a href="https://template-party.com/">Template-Party</a>の<a
                         href="https://template-party.com/member.html">ライセンス契約</a>を行う事でHP下部の著作を外す事ができます。
                 </p> -->
-
-                <h3>テンプレートに梱包されているjsファイル(javascript)について</h3>
                 <!-- <h3>テンプレートに梱包されているjsファイル(javascript)について</h3>
                 <p>これらのファイルは全て<a href="https://www.crytus.info/"
                         target="_blank">クリタス様</a>提供のプログラムです。jsファイルは改変せずにご利用下さい。<br>
@@ -120,10 +110,7 @@
             </section>
 
             <section>
-                <h2>当テンプレートについて</h2>
-
-                <h3>当テンプレートはレスポンシブWEBデザインです</h3>
-                <h2>{{$item->getHeding(1)}}</h2>
+                <h2>{{$item->getHeding(2)}}</h2>
                 <img src="../images/column/{{$item->getPhoto(1)}}" alt="" style="width: 400px;">
                 <h3>{{$item->getSubheding('11')}}</h3>
                 <p>{{$item->getContent('11')}}</p>
@@ -150,10 +137,6 @@
             </section>
 
             <section>
-
-                <h2>当テンプレートの使い方</h2>
-
-                <h3>初心者向けマニュアル公開中</h3>
                 <h2>{{$item->getHeding(2)}}</h2>
                 <img src="../images/column/{{$item->getPhoto(2)}}" alt="" style="width: 400px;">
                 <h3>{{$item->getSubheding('21')}}</h3>
@@ -285,7 +268,7 @@
         <!--/#main-->
 
         <footer>
-            <small>Copyright&copy; <a href="index.html">Macaroon Shop</a> All Rights Reserved.</small>
+            <small>Copyright&copy; <a href="../home">Macaroon Shop</a> All Rights Reserved.</small>
             <span class="pr"><a href="https://template-party.com/" target="_blank">《Web
                     Design:Template-Party》</a></span>
         </footer>

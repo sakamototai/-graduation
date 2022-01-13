@@ -94,7 +94,7 @@
                     <div><a href="">婚活</a><a href="">マッチングアプリ　</a><a href="">すげー </a></div>
                     <p>ここに説明を入れます。サンプルテキスト。</p>
                 </div>
-                <div class="list">
+                <!-- <div class="list">
                     <a href="column/2">
                         <figure><img src="images/sample1.jpg" alt=""></figure>
                         <h4>オンライン婚活パーティって何？メリットや成功の秘訣</h4>
@@ -187,7 +187,7 @@
                     </br>
                     <a href="">tag</a><a href="">tag</a><a href="">tag</a>
                     <p>ここに説明を入れます。サンプルテキスト。</p>
-                </div>
+                </div> -->
 
             </section>
 
