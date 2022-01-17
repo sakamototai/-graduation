@@ -7,7 +7,6 @@
     <title>Marriage Integration App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="ここにサイト説明を入れます">
-    <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
     <link href="{{ asset('css/style-top.css')}}" rel="stylesheet">
     <script src="js/openclose.js"></script>
     <!--[if lt IE 9]>
@@ -24,7 +23,7 @@
 <body>
     <header>
         <h1 id="logo">
-            <a href="home"><img src="images/MIA2.png" alt="Macaroon Shop"></a>
+            <a href="home"><img src="images/MIA2.png" alt="marriage integration app"></a>
         </h1>
         <dl id="new">
             <dt>2021/1/17</dt>
@@ -35,7 +34,7 @@
     <nav id="menubar">
         <ul>
             <li><a href="column"><span>column</span><span>コラム特集</span></a></li>
-            <li><a href="bridal_fair"><span>bridalfair</span><span>ブライダルフェア</span></a></li>
+            <li><a href="bridal_fair"><span>ceremony</span><span>式場検索</span></a></li>
         </ul>
     </nav>
     <!--背景スライドショー-->
