@@ -83,111 +83,18 @@
             <section class="ofh">
 
                 <h2>カテゴリー別注目記事</h2>
-
+                @for($i = 1;$i <= 10 && $i <= $number;$i++)
                 <div class="list">
-                    <a href="column/1">
-                        <figure><img src="images/column/column.jpg" alt=""></figure>
-                        <h4>オンライン婚活パーティって何？メリットや成功の秘訣</h4>
+                    <a href="column/{{$item[$i]->getId()}}">
+                        <figure><img src="images/column/{{$item[$i]->getSamnail()}}" alt=""></figure>
+                        <h4>{{$item[$i]->getTitle()}}</h4>
                         <p class="popular">人気</p>
                     </a>
                     </br>
-                    <div><a href="">婚活</a><a href="">マッチングアプリ　</a><a href="">すげー </a></div>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
+                    <div><a href="">{{$item[$i]->getTag(4)}}</a><a href="">マッチングアプリ　</a><a href="">すげー </a></div>
+                    <p>{{$item[$i]->getHeding(1)}}</p>
                 </div>
-                <!-- <div class="list">
-                    <a href="column/2">
-                        <figure><img src="images/sample1.jpg" alt=""></figure>
-                        <h4>オンライン婚活パーティって何？メリットや成功の秘訣</h4>
-                        <p class="popular">人気</p>
-                    </a>
-                    </br>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                </div>
-
-                <div class="list">
-                    <a href="chat">
-                        <figure><img src="images/sample1.jpg" alt=""></figure>
-                        <h4>オンライン婚活パーティって何？メリットや成功の秘訣</h4>
-                        <p class="popular">人気</p>
-                    </a>
-                    </br>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                </div>
-
-                <div class="list">
-                    <a href="chat">
-                        <figure><img src="images/sample1.jpg" alt=""></figure>
-                        <h4>オンライン婚活パーティって何？メリットや成功の秘訣</h4>
-                        <p class="popular">人気</p>
-                    </a>
-                    </br>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                </div>
-
-                <div class="list">
-                    <a href="chat">
-                        <figure><img src="images/sample1.jpg" alt=""></figure>
-                        <h4>オンライン婚活パーティって何？メリットや成功の秘訣</h4>
-                        <p class="popular">人気</p>
-                    </a>
-                    </br>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                </div>
-
-                <div class="list">
-                    <a href="chat">
-                        <figure><img src="images/sample1.jpg" alt=""></figure>
-                        <h4>マカロンタイトル</h4>
-                        <p class="popular">人気</p>
-                    </a>
-                    </br>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                </div>
-                <div class="list">
-                    <a href="chat">
-                        <figure><img src="images/sample1.jpg" alt=""></figure>
-                        <h4>マカロンタイトル</h4>
-                        <p class="popular">人気</p>
-                    </a>
-                    </br>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                </div>
-                <div class="list">
-                    <a href="chat">
-                        <figure><img src="images/sample1.jpg" alt=""></figure>
-                        <h4>マカロンタイトル</h4>
-                        <p class="popular">人気</p>
-                    </a>
-                    </br>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                </div>
-                <div class="list">
-                    <a href="chat">
-                        <figure><img src="images/sample1.jpg" alt=""></figure>
-                        <h4>マカロンタイトル</h4>
-                        <p class="popular">人気</p>
-                    </a>
-                    </br>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                </div>
-                <div class="list">
-                    <a href="chat">
-                        <figure><img src="images/sample1.jpg" alt=""></figure>
-                        <h4>マカロンタイトル</h4>
-                        <p class="popular">人気</p>
-                    </a>
-                    </br>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                </div> -->
+                @endfor
 
             </section>
 
