@@ -27,6 +27,9 @@ class accountController extends Controller
         // $items = DB::select('select * from tbl_column');
         return view('column.columncontents',['item'=> $item,'id'=>$id]);
     }
+    public function columntag(){
+
+    }
     public function budget(){
         return view('user.budget');
     }
