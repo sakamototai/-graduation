@@ -91,7 +91,7 @@
                         <p class="popular">人気</p>
                     </a>
                     </br>
-                    <div><a href="">{{$item[$i]->getTag(4)}}</a><a href="">マッチングアプリ　</a><a href="">すげー </a></div>
+                    <div><a href="">{{$item[$i]->getTag(1)}}</a>　<a href="">{{$item[$i]->getTag(2)}}</a>　<a href="">{{$item[$i]->getTag(3)}}</a>　</div>
                     <p>{{$item[$i]->getHeding(1)}}</p>
                 </div>
                 @endfor

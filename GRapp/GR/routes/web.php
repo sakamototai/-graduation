@@ -18,6 +18,7 @@ Route::get('/', function () {
 });
 Route::get('login',[accountController::class,'login']);
 Route::get('column/{id}',[accountController::class,'column1']);
+Route::get('column{xxx}',[acountController::class,'columntag']);
 Route::get('bridal_fair',[accountController::class,'bridalfair']);
 Route::get('budget',[accountController::class,'budget']);
 Route::get('chat',[accountController::class,'chat']);

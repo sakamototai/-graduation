@@ -86,7 +86,7 @@
             <section>
                 <h2>{{$item -> getTitle()}}</h2>
                 <div>
-                    <a href="">{{$item -> getTag(2)}}</a>
+                    <a href="">{{$item -> getTag(1)}}</a>　<a href="">{{$item -> getTag(2)}}</a>　<a href="">{{$item -> getTag(3)}}</a>　<a href="">{{$item -> getTag(4)}}</a>
                     <img src="../images/column/{{$item -> getsamnail()}}" style="float:left;width: 300px;">
                     <!-- タグの作成中 -->
                     <p>{{$item -> getIntroduction()}}
@@ -110,7 +110,7 @@
             </section>
 
             <section>
-                <h2>{{$item->getHeding(2)}}</h2>
+                <h2>{{$item->getHeding(1)}}</h2>
                 <img src="../images/column/{{$item->getPhoto(1)}}" alt="" style="width: 400px;">
                 <h3>{{$item->getSubheding('11')}}</h3>
                 <p>{{$item->getContent('11')}}</p>
