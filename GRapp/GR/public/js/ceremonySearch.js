@@ -1,37 +1,18 @@
 const ceremonylist = [
-    ["THE STYLE","岡山","岡山市・周辺","thestyle.png"],
-    ["ラヴィール岡山","岡山","岡山市・周辺","lavilleokayama.png"],
-    ["アーヴェリール迎賽館　岡山","岡山","岡山市・周辺","averillstateguesthouse.png"],
-    ["Recent Culture Hotel(リーセントカルチャーホテル)","岡山","岡山市・周辺","recentculturehotel.png"],
-    ["OKAYAMA MONOLITH(岡山モノリス)","岡山","岡山市・周辺","okayamamonolith.png"],
-    ["SEPHIROTH(セフィロト)","岡山","岡山市・周辺","sephiroth.png"],
-    ["セント・ポールズパーク プリムローズ","岡山","岡山市・周辺","sentporlsparkprimlose.png"],
-    ["森の邸宅 彩音","岡山","岡山市・周辺","morinoteitakuayane.png"],
-    ["ホテル メルパルクOKAYAMA","岡山","岡山市・周辺","hotelmielparque.png"],
-    ["セント・パトリック教会/ウェリントンマナーハウス","岡山","岡山市・周辺","sentpatrickyokaiulerintonmanahausu.png"],
-    ["THE MAGRITTE(ザ マグリット)","岡山","岡山市・周辺","themagritte.png"],
-    ["クリスタルテラス Nature","岡山","岡山市・周辺","cristaltelasnature.png"],
-    ["Wグランラセーレ岡山","岡山","岡山市・周辺","wgranraseleokayama.png"],
-    ["ホテルグランヴィア岡山","岡山","岡山市・周辺","hotelgranviaokayama.png"],
-    ["Tiara-THE GARDEN HOUSE(旧アムボエル・アスク)","岡山","岡山市・周辺","tiaragardenhouse.png"],
-    ["Le Merci(ル・メルシェ)","岡山","岡山市・周辺","lemerci.png"],
-    ["Tiara-THE CLASSIC CLUB(旧キューティパイ倶楽部)"],
-    ["Ray ClassicGran Sweet(レイクラシックグランスウィート)","岡山","岡山市・周辺"],
-    ["ANAクラウンプラザホテル岡山","岡山","岡山市・周辺"],
-    ["WHITE DRAMA(ホワイトドラマ)","岡山","岡山市・周辺"],
-    ["Tiara-THE GARDEN RESTAURANT(旧アムボエル・アスク","岡山","岡山市・周辺"],
-    ["風ノウタ","岡山","岡山市・周辺"],
-    ["ヴェルジェくらしき","倉敷","倉敷市・周辺"],
-    ["EYOHAKU-ヨハク-","倉敷","倉敷市・周辺"],
-    ["The 華紋(ザカモン)","倉敷","倉敷市・周辺"],
-    ["LE PONT NEUF(ポンヌフ)","倉敷","倉敷市・周辺"],
-    ["マリアガーデン","倉敷","倉敷市・周辺"],
-    ["CELESTE(セレスト)","倉敷","倉敷市・周辺"],
-    ["Le Reve(ル・レーヴ)","倉敷","倉敷市・周辺"],
-    ["SARA津山玉姫殿","津山","県北"],
-    ["THE HILLS HOUSE TSUYAMA(ザ・ヒルズハウスツヤマ)","津山","県北"]
+    //式場名、県、地区、写真のリンク、説明、電話番号、住所、実績、公式サイト
+    ["THE STYLE","岡山","岡山市・周辺","thestyle.png","地上101mのプライベートフロアを貸切！『ふたりらしさ』を大事にした自由な結婚式を","086-234-7310","岡山県岡山市北区中山下1-8-45　NTTクレド岡山ビル20階・21階（ウエディングサロンは11階）","×","https://www.styles.jp/thestyle/"],
+    ["ラヴィール岡山","岡山","岡山市・周辺","lavilleokayama.png","生涯式場としてリブランドして歩き始める専門式場。大切なゲストと最高の想い出を","086-231-1101","岡山県岡山市北区駅元町1－10","〇","https://www.ravir.co.jp/"],
+    ["ホテルグランヴィア岡山","岡山","岡山市・周辺","hotelgranviaokayama.png","岡山駅直結の上質ホテルで叶う洗練されたおもてなしとラグジュアリーなひととき","086-233-3491","岡山県岡山市北区駅元町1－5","〇","https://www.granvia-oka.co.jp/wedding/"],
+    ["Tiara-THE GARDEN HOUSE(旧アムボエル・アスク)","岡山","岡山市・周辺","tiaragardenhouse.png","1日1組貸切の『ガーデン付き邸宅×ホワイトチャペル』で楽しいリゾートウエディング","086-201-5050","岡山県岡山市中区国富1－15－6","×","https://bb-tiara-amboel.official-website.jp/"],
+    ["Le Merci(ル・メルシェ)","岡山","岡山市・周辺","lemerci.png","選べるチャペル×会場が人気！1棟貸切で気兼ねなくもてなす、大人ウエディング","086-244-4810","岡山県岡山市北区大元上町8－33","×","https://le-merci.com/"],
+    ["ヴェルジェくらしき","倉敷","倉敷市・周辺","Verger.png","幸せのブルーが輝く大聖堂！選べる3つのフロア貸切会場で、上質なおもてなしを"," 086-422-2233","岡山県倉敷市笹沖662","×","https://www.verger-kurashiki.jp/"],
+    ["EYOHAKU-ヨハク-","倉敷","倉敷市・周辺","eyohaku.png","広大なガーデン、シックな会場、希少なチャペル！バリアフリーの全館がまるごと貸切に","0120-427-489","岡山県倉敷市羽島751－1","×","https://eyohaku-kurashiki.com/"],
+    ["The 華紋(ザカモン)","倉敷","倉敷市・周辺","thekamon.png","倉敷美観地区の中心部に立地。歴史と伝統を受け継いだモダンな邸宅","086-421-7441","岡山県倉敷市中央1-10-13 2階","×","https://kamon-kurashiki.jp/"],
+    ["SARA","津山","県北","sara.png","ゲスト×ふたりの想いが交差する。洗練された空間で感動的な一日を","0868-24-1101","岡山県津山市川崎105","×","https://sara-wedding.co.jp/"]
 ]
-const ceremonylink = ["thestyle.html","arveril.html","ravil.html","velju.html","forest.html","wind.html"];
+
+
+
 const area = [
     ["岡山県すべて","岡山市・周辺", "倉敷市・周辺","県北"],
     ["広島県すべて","備後・県北", "呉・東広島","広島市・周辺"],
@@ -93,19 +74,51 @@ function Search(){
 
 function addElement(i){
     const ceremonyul = document.getElementById("ceremonylist");
-    const newContent = document.createElement('div');//div要素作成
-    newContent.setAttribute("class","list");//divにlistクラス設定
-    const newElement = document.createElement("li"); //tr要素作成
-    const newLink = document.createElement("a"); // a要素作成
-    newContent.appendChild(newElement);//divにli要素追加
+    // const newContent = document.createElement('div');//div要素作成
+    // newContent.setAttribute("class","list");//divにlistクラス設定
+    const newtr = document.createElement("tr"); //tr要素作成
+    const newdiv = document.createElement("div"); //
+    newdiv.setAttribute("style","border:solid;color:black;");
+    newdiv.setAttribute("onclick","pushExplanation("+ i + ")");
+    newtr.appendChild(newdiv);//trにdiv要素追加
+    const newth1 = document.createElement('th');//th要素作成
+    newdiv.appendChild(newth1);//divにth要素追加
     const ceremonyimg = document.createElement('img');//img要素を作る
     ceremonyimg.setAttribute("src","img/ceremony/" + ceremonylist[i][3]);//ソース名
-    newLink.appendChild(ceremonyimg);
+    newth1.appendChild(ceremonyimg);
     const ceremonyname = document.createTextNode(ceremonylist[i][0]); //式場名を生成
-    newLink.appendChild(ceremonyname); // a要素に式場名を追加
-    newLink.setAttribute("href",ceremonylink[i]); // p要素にidを設定
-    newElement.appendChild(newLink);//li要素にa要素追加
-    ceremonyul.appendChild(newContent);
+    const newth2 = document.createElement('th');//th要素作成
+    const newname = document.createElement('p');//p要素作成 
+    newname.setAttribute("class","ceremonyl");
+    newname.appendChild(ceremonyname); // p要素に式場名を追加
+    newth2.appendChild(newname);//th要素にp要素追加
+    const newdiv2 = document.createElement('div');//div要素作成
+    // newdiv2.setAttribute("hidden","true");
+    const newp = document.createElement('p');
+    newp.setAttribute('class','ceremonyl');
+    newp.innerText = ceremonylist[i][4];
+    newdiv2.appendChild(newp);
+    const newp2 = document.createElement("p");
+    newp2.setAttribute("class","ceremonyl");
+    newp2.innerText ="電話番号:" + ceremonylist[i][5];
+    newdiv2.appendChild(newp2);
+    const newp3 = document.createElement("p");
+    newp3.setAttribute("class","ceremonyl")
+    newp3.innerText = "所在地:" + ceremonylist[i][6];
+    newdiv2.appendChild(newp3);
+    const newp4 = document.createElement("p");
+    newp4.setAttribute("class","ceremonyl");
+    newp4.innerText = "LGBT婚実績:" + ceremonylist[i][7];
+    newdiv2.appendChild(newp4);
+    const ofiurl = document.createElement("a");
+    ofiurl.setAttribute("href",ceremonylist[i][8]);
+    ofiurl.innerHTML = "公式サイトはこちら";
+    newdiv2.appendChild(ofiurl);
+    newth2.appendChild(newdiv2);
+    newdiv.appendChild(newth2);//div要素にth要素追加
+    newtr.appendChild(newdiv);//tr要素にdiv要素追加
+
+    ceremonyul.appendChild(newtr);
 }
 
 function pfCheck(check){
@@ -136,6 +149,9 @@ function areaCheck(check){
     }
 }
 
+function pushExplanation(i){
+    
+}
 
 function selectSearch(){
     let count = 0;
