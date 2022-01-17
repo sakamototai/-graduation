@@ -19,9 +19,18 @@ class TblColumn extends Model
     public function getTitle(){
         return $this->title;
     }
-    public function getTag(int $c){//途中
-
-        return $this->tag;
+    public function getTag(int $c){
+        if($c==1){
+            return $this->tag1;
+        }else if($c==2){
+            return $this->tag2;
+        }else if($c==3){
+            return $this->tag3;
+        }else if($c==4){
+            return $this->tag4;
+        }else{
+            return "error";
+        }
     }
     public function getUpdatetime(){
         return $this->updatetime;

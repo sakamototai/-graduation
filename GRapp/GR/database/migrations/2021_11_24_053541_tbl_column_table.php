@@ -16,7 +16,10 @@ class TblColumnTable extends Migration
         Schema::create('tbl_column',function(Blueprint $table){
         $table->integer('id');
         $table->char('title',50);
-        $table->char('tag',30);
+        $table->char('tag1',30);
+        $table->char('tag2',30);
+        $table->char('tag3',30);
+        $table->char('tag4',30);
         $table->char('updatetime',10);
         $table->char('posttime',10);
         $table->text('introduction');

@@ -23,7 +23,7 @@
 
         <header>
             <h1 id="logo">
-                <a href="home"><img src="images/logo2.png" alt="Macaroon Shop"></a>
+                <a href="home"><img src="images/MIA2.png" alt="marriage integration app"></a>
             </h1>
             <h2>COLUMN<span>コラム</span></h2>
             <!--PC用（901px以上端末）メニュー-->
@@ -31,7 +31,7 @@
                 <ul>
                     <li><a href="home"><span>Home</span><span>ホーム</span></a></li>
                     <li><a href="column"><span>column</span><span>コラム特集</span></a></li>
-                    <li><a href="bridal_fair"><span>bridalfair</span><span>ブライダルフェア</span></a></li>
+                    <li><a href="bridal_fair"><span>ceremony</span><span>式場検索</span></a></li>
                 </ul>
                 <ul class="icon">
                     <li>
@@ -83,139 +83,18 @@
             <section class="ofh">
 
                 <h2>カテゴリー別注目記事</h2>
-
+                @for($i = 1;$i <= 10 && $i <= $number;$i++)
                 <div class="list">
-                    <a href="column/1">
-                        <figure><img src="images/column/column.jpg" alt=""></figure>
-                        <h4>オンライン婚活パーティって何？メリットや成功の秘訣</h4>
+                    <a href="column/{{$item[$i]->getId()}}">
+                        <figure><img src="images/column/{{$item[$i]->getSamnail()}}" alt=""></figure>
+                        <h4>{{$item[$i]->getTitle()}}</h4>
                         <p class="popular">人気</p>
                     </a>
                     </br>
-                    <div><a href="">婚活</a><a href="">マッチングアプリ　</a><a href="">すげー </a></div>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
+                    <div><a href="">{{$item[$i]->getTag(1)}}</a>　<a href="">{{$item[$i]->getTag(2)}}</a>　<a href="">{{$item[$i]->getTag(3)}}</a>　</div>
+                    <p>{{$item[$i]->getHeding(1)}}</p>
                 </div>
-                <!-- <div class="list">
-                    <a href="column/2">
-                        <figure><img src="images/sample1.jpg" alt=""></figure>
-                        <h4>オンライン婚活パーティって何？メリットや成功の秘訣</h4>
-                        <p class="popular">人気</p>
-                    </a>
-                    </br>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                </div>
-
-                <div class="list">
-                    <a href="chat">
-                        <figure><img src="images/sample1.jpg" alt=""></figure>
-                        <h4>オンライン婚活パーティって何？メリットや成功の秘訣</h4>
-                        <p class="popular">人気</p>
-                    </a>
-                    </br>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                </div>
-
-                <div class="list">
-                    <a href="chat">
-                        <figure><img src="images/sample1.jpg" alt=""></figure>
-                        <h4>オンライン婚活パーティって何？メリットや成功の秘訣</h4>
-                        <p class="popular">人気</p>
-                    </a>
-                    </br>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                </div>
-
-                <div class="list">
-                    <a href="chat">
-                        <figure><img src="images/sample1.jpg" alt=""></figure>
-                        <h4>オンライン婚活パーティって何？メリットや成功の秘訣</h4>
-                        <p class="popular">人気</p>
-                    </a>
-                    </br>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                </div>
-
-                <div class="list">
-                    <a href="chat">
-                        <figure><img src="images/sample1.jpg" alt=""></figure>
-                        <h4>マカロンタイトル</h4>
-                        <p class="popular">人気</p>
-                    </a>
-                    </br>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                </div>
-                <div class="list">
-                    <a href="chat">
-                        <figure><img src="images/sample1.jpg" alt=""></figure>
-                        <h4>マカロンタイトル</h4>
-                        <p class="popular">人気</p>
-                    </a>
-                    </br>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                </div>
-                <div class="list">
-                    <a href="chat">
-                        <figure><img src="images/sample1.jpg" alt=""></figure>
-                        <h4>マカロンタイトル</h4>
-                        <p class="popular">人気</p>
-                    </a>
-                    </br>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                </div>
-                <div class="list">
-                    <a href="chat">
-                        <figure><img src="images/sample1.jpg" alt=""></figure>
-                        <h4>マカロンタイトル</h4>
-                        <p class="popular">人気</p>
-                    </a>
-                    </br>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                </div>
-                <div class="list">
-                    <a href="chat">
-                        <figure><img src="images/sample1.jpg" alt=""></figure>
-                        <h4>マカロンタイトル</h4>
-                        <p class="popular">人気</p>
-                    </a>
-                    </br>
-                    <a href="">tag</a><a href="">tag</a><a href="">tag</a>
-                    <p>ここに説明を入れます。サンプルテキスト。</p>
-                </div> -->
-
-            </section>
-
-            <section>
-
-                <h2>※使い方注意</h2>
-
-                <h3>写真は正方形で準備して下さい</h3>
-                <p>長方形だと楕円形になってしまいます。<br> また、正方形だと思っていても1pxサイズが違うだけで段落ちする場合があるので必ず縦横サイズを統一して下さい。
-                </p>
-
-                <h3>商品名タイトルや説明を長くしすぎないで下さい</h3>
-                <p>多く書き込むと閲覧する画面サイズによって切れます（↓）。</p>
-
-                <div class="list">
-                    <figure><img src="images/sample2.jpg" alt=""></figure>
-                    <h4>長くしすぎると途中で切れて見える場合があるので注意して下さい。</h4>
-                    <p>長くしすぎると途中で切れて見える場合があるので注意して下さい。</p>
-                </div>
-
-                <p class="clear">表示領域を増やしたい場合は、cssフォルダのsytle.cssの<br> #main .list h4 {<br> や、
-                    <br> #main .list p {<br> のheightを調整して下さい。説明も書いてあります。
-                </p>
-                <p>尚、閲覧画面の幅が480px以下になると、３カラムから１カラムになるので、ここの切れてしまう制限は解除されています。</p>
-
-                <h3>写真の枠を円形ではなく、四角形や角丸四角形にもできます</h3>
-                <p>詳しくは、cssフォルダのstyle.cssの、<br> #main .list figure {<br> のブロックにあるborder-radiusの解説を見て下さい。
-                </p>
+                @endfor
 
             </section>
 
