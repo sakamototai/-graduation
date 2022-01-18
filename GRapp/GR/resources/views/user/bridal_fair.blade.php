@@ -71,9 +71,8 @@
                 <button id="modalOpen" >エリアで検索</button>
 
                 <h2 id="searchconditions"></h2>
-                <ul id="ceremonylist">
-                    
-                </ul>
+                <table id="ceremonylist">
+                </table>
                 <div id="easyModal" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -120,6 +119,14 @@
         open_close("menubar_hdr", "menubar-s");
     </script>
 
+    <div id= "syosai" hidden>
+        <img id="simg">
+        <p id="sname"></p>
+        <p id="sexplanation"></p>
+        <p id="stelephonenumber"></P>
+        <p id="saddress"></p>
+        <p id="slink"></P>
+    </div>
 </body>
 
 </html>
