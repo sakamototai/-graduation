@@ -13,7 +13,7 @@ class TblColumnTable extends Migration
      */
     public function up()
     {
-        Schema::create('tbl_column',function(Blueprint $table){
+        Schema::create('gr',function(Blueprint $table){
         $table->integer('id');
         $table->char('title',50);
         $table->char('tag1',30);

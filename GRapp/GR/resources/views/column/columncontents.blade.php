@@ -86,7 +86,7 @@
             <section>
                 <h2>{{$item -> getTitle()}}</h2>
                 <div>
-                    <a href="">{{$item -> getTag(1)}}</a>　<a href="">{{$item -> getTag(2)}}</a>　<a href="">{{$item -> getTag(3)}}</a>　<a href="">{{$item -> getTag(4)}}</a>
+                    <a href="../column{{$item -> getTag(1)}}">{{$item -> getTag(1)}}</a>　<a href="../column{{$item -> getTag(2)}}">{{$item -> getTag(2)}}</a>　<a href="../column{{$item -> getTag(3)}}">{{$item -> getTag(3)}}</a>　<a href="../column{{$item -> getTag(4)}}">{{$item -> getTag(4)}}</a>
                     <img src="../images/column/{{$item -> getsamnail()}}" style="float:left;width: 300px;">
                     <!-- タグの作成中 -->
                     <p>{{$item -> getIntroduction()}}
