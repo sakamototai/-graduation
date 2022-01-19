@@ -149,3 +149,13 @@ p.btn--emboss {
   #ceremonyl{
     color: black;
   }
+
+  #yesachievement{
+    color: red;
+    font-size: 30px;
+  }
+  #noachievement{
+    color: blue;
+    font-size: 30px;
+  }
+  
