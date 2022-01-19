@@ -23,7 +23,7 @@
 
         <header>
             <h1 id="logo">
-                <a href="../home"><img src="../images/logo2.png" alt="Macaroon Shop"></a>
+                <a href="../home"><img src="../images/MIA2.png" alt="Macaroon Shop"></a>
             </h1>
             <h2>Column<span>Columnのタイトル</span></h2>
             <!--PC用（901px以上端末）メニュー-->
