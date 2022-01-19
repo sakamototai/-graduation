@@ -106,10 +106,21 @@ function addElement(i){
     newp3.setAttribute("class","ceremonyl")
     newp3.innerText = "所在地:" + ceremonylist[i][6];
     newdiv2.appendChild(newp3);
-    const newp4 = document.createElement("p");
+    const newp4 = document.createElement("label");
     newp4.setAttribute("class","ceremonyl");
-    newp4.innerText = "LGBT婚実績:" + ceremonylist[i][7];
+    newp4.innerText = "LGBT婚実績:";
     newdiv2.appendChild(newp4);
+    const newp5 = document.createElement("label");
+    if(ceremonylist[i][7] == "有り"){
+        newp5.setAttribute("id","yesachievement")
+    }
+    else if(ceremonylist[i][7] == "無し"){
+        newp5.setAttribute("id","noachievement")
+    }
+    newp5.innerText = ceremonylist[i][7];
+    newdiv2.appendChild(newp5);
+    const newbr = document.createElement("br");
+    newdiv2.appendChild(newbr);
     const ofiurl = document.createElement("a");
     ofiurl.setAttribute("href",ceremonylist[i][8]);
     ofiurl.innerHTML = "公式サイトはこちら";
